@@ -5,6 +5,7 @@ This repository includes some examples about how to configure orchy and how to i
 For each example you will find:
 - the `orchy-config.json` file, used to configure the Web Component;
 - the `page-config.json` file, used to configure the Server Driven UI;
+- a `README.md` with a description of the example;
 - the related Micro Frontends.
 
 

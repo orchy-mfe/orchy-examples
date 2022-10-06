@@ -4,7 +4,7 @@ import {ReactComponent as ReactLogo} from './assets/react.svg'
 
 import './App.css'
 
-const FAKE_BUS = {subscribe: () => ({unsubscribe: () => {}}), next: () => {}}
+const FAKE_BUS = {subscribe: () => ({unsubscribe: () => { }}), next: () => { }}
 
 function App({eventBus = FAKE_BUS}) {
   const [messageContent, setMessageContent] = useState('')
@@ -13,7 +13,7 @@ function App({eventBus = FAKE_BUS}) {
 
   useEffect(() => {
     const subscription = eventBus.subscribe(data => {
-      if(data.sender === 'iframe') {
+      if (data.sender === 'iframe') {
         setMessageReceived(data.value)
       }
     })
