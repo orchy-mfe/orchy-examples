@@ -1,0 +1,16 @@
+{
+    "type": "flex-row",
+    "content": [{
+        "type": "element",
+        "tag": "div",
+        "attributes": {
+            "id":"root"
+        }
+    }, {
+        "type": "element",
+        "tag": "div",
+        "attributes": {
+            "id":"app"
+        }
+    }]
+}

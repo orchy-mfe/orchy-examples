@@ -1,6 +1,6 @@
 <script>
   let message, receivedMessage = ''
-  const increment = () => {
+  const sendMessage = () => {
     parent.postMessage({value: message, sender: 'iframe'}, '*')
   }
   window.onmessage = ({data}) => {
@@ -11,7 +11,7 @@
 
 <div>
   <input type="text" bind:value={message} style="width: 100%; margin-bottom: 16px">
-  <button on:click={increment}>
+  <button on:click={sendMessage}>
    Send message
   </button>
   Received message: {receivedMessage}
