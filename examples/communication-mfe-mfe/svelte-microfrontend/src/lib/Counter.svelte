@@ -10,7 +10,7 @@
   })
 </script>
 
-<div>
+<div style="display: flex;flex-direction: column">
   <button on:click={increment}>
    Increment
   </button>

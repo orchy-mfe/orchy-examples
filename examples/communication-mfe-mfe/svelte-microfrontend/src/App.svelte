@@ -6,7 +6,7 @@
   export let eventBus, baseUrl
 </script>
 
-<Router basePath={baseUrl}>
+<Router basepath={baseUrl}>
   <SvelteLogo />
 
   <div class="card">
