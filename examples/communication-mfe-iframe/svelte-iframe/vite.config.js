@@ -12,7 +12,7 @@ export default defineConfig(({mode}) => ({
     qiankun('os', {useDevMode: true}),
     visualizer(),
   ],
-  base: mode === 'development' ? `http://localhost:${port}/` : '/os/',
+  base: mode === 'development' ? `http://localhost:${port}/` : '/svelte-iframe/',
   server: {port, cors: true},
   test: {
     environment: 'jsdom',

@@ -20,4 +20,12 @@ export default defineConfig(({mode}) => ({
     environment: 'happy-dom',
     mockReset: true
   },
+  build: {
+    rollupOptions: {
+      external: [
+        'react',
+        'react-dom',
+      ]
+    }
+  }
 }))

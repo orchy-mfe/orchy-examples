@@ -1,0 +1,10 @@
+{
+    "type": "flex-row",
+    "content": [{
+        "type": "element",
+        "tag": "div",
+        "attributes": {
+            "id":"root"
+        }
+    }]
+}

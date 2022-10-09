@@ -14,7 +14,7 @@ export default defineConfig(({mode}) => ({
     qiankun('or', {useDevMode: true}),
     visualizer(),
   ],
-  base: mode === 'development' ? `http://localhost:${port}/` : '/or/',
+  base: mode === 'development' ? `http://localhost:${port}/` : '/react-microfrontend/',
   server: {port, cors: true},
   test: {
     environment: 'happy-dom',
