@@ -1,17 +1,17 @@
-#root {
+#communication-mfe-iframe-react {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.card {
+#communication-mfe-iframe-react .card {
   padding: 2em;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.read-the-docs {
+#communication-mfe-iframe-react .read-the-docs {
   color: #888;
 }
