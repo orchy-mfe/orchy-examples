@@ -11,7 +11,7 @@ export default defineConfig(({mode}) => ({
   plugins: [
     svgr(),
     react({fastRefresh: false}),
-    qiankun('or', {useDevMode: true}),
+    qiankun('communication-react-mfe', {useDevMode: true}),
     visualizer(),
   ],
   base: mode === 'development' ? `http://localhost:${port}/` : '/communication-react-mfe/',
