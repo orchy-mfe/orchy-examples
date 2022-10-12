@@ -6,12 +6,12 @@
         {
           "entryPoint": "//localhost:3001",
           "id": "microfrontend-test-1",
-          "container": "#root"
+          "container": "#communication-mfe-mfe-react"
         },
         {
           "entryPoint": "//localhost:5000",
           "id": "microfrontend-test-2",
-          "container": "#app"
+          "container": "#communication-mfe-mfe-svelte"
         }
       ]
     }

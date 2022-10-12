@@ -11,7 +11,7 @@ const retrieveContainer = props => props.container ?? document
 
 const render = (props = {}) => {
   const container = retrieveContainer(props)
-  root = createRoot(container.querySelector('#root'))
+  root = createRoot(container.querySelector('#communication-mfe-mfe-react'))
   root.render(
     <StrictMode>
       <BrowserRouter basename={props.baseUrl}>

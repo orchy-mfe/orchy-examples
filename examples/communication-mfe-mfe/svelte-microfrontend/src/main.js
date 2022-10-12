@@ -4,7 +4,7 @@ import App from './App.svelte'
 
 let app
 
-const retrieveContainer = props => (props.container || document).querySelector('#app')
+const retrieveContainer = props => (props.container || document).querySelector('#communication-mfe-mfe-svelte')
 
 const render = (props = {}) => {
   app = new App({

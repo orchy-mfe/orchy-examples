@@ -9,10 +9,10 @@ const port = process.env.PORT || 5000
 export default defineConfig(({mode}) => ({
   plugins: [
     svelte({hot: !process.env.VITEST}),
-    qiankun('os', {useDevMode: true}),
+    qiankun('communication-counter-svelte-mfe', {useDevMode: true}),
     visualizer(),
   ],
-  base: mode === 'development' ? `http://localhost:${port}/` : '/svelte-microfrontend/',
+  base: mode === 'development' ? `http://localhost:${port}/` : '/communication-counter-svelte-mfe/',
   server: {port, cors: true},
   test: {
     environment: 'jsdom',

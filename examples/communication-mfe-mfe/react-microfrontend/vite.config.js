@@ -11,10 +11,10 @@ export default defineConfig(({mode}) => ({
   plugins: [
     svgr(),
     react({fastRefresh: false}),
-    qiankun('or', {useDevMode: true}),
+    qiankun('communication-counter-react-mfe', {useDevMode: true}),
     visualizer(),
   ],
-  base: mode === 'development' ? `http://localhost:${port}/` : '/react-microfrontend/',
+  base: mode === 'development' ? `http://localhost:${port}/` : '/communication-counter-react-mfe/',
   server: {port, cors: true},
   test: {
     environment: 'happy-dom',
