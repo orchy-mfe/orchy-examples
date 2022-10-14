@@ -5,13 +5,13 @@
   text-align: center;
 }
 
-.card {
+#root .card {
   padding: 2em;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.read-the-docs {
+#root .read-the-docs {
   color: #888;
 }

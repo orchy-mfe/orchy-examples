@@ -14,7 +14,7 @@ export default defineConfig(({mode}) => ({
     qiankun('or', {useDevMode: true}),
     visualizer(),
   ],
-  base: mode === 'development' ? `http://localhost:${port}/` : '/react-microfrontend/',
+  base: mode === 'development' ? `http://localhost:${port}/` : '/react-import-maps/',
   server: {port, cors: true},
   test: {
     environment: 'happy-dom',
