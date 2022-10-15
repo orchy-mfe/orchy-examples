@@ -4,13 +4,13 @@
         "type": "element",
         "tag": "div",
         "attributes": {
-            "id":"root"
+            "id":"communication-mfe-mfe-react"
         }
     }, {
         "type": "element",
         "tag": "div",
         "attributes": {
-            "id":"app"
+            "id":"communication-mfe-mfe-svelte"
         }
     }]
 }

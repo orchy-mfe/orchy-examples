@@ -4,7 +4,7 @@
         "type": "element",
         "tag": "div",
         "attributes": {
-            "id":"root"
+            "id":"communication-mfe-iframe-react"
         }
     }, {
         "type": "element",
