@@ -12,7 +12,6 @@ export default defineConfig(({mode}) => ({
     qiankun('communication-counter-svelte-mfe', {useDevMode: true}),
     visualizer(),
   ],
-  optimizeDeps: { exclude: ["svelte-navigator"] },
   base: mode === 'development' ? `http://localhost:${port}/` : '/communication-counter-svelte-mfe/',
   server: {port, cors: true},
   test: {

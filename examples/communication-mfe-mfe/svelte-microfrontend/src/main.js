@@ -18,8 +18,9 @@ renderWithQiankun({
     render(props)
   },
   bootstrap() { },
-  unmount() {
+  unmount(props) {
     app.$destroy()
+    props.singleSpa.unmountSelf()
   },
   update() {}
 })
