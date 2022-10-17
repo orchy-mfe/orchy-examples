@@ -19,10 +19,7 @@ renderWithQiankun({
   },
   bootstrap() { },
   unmount() {
-    if(app) {
-      app.$destroy()
-      app = null
-    }
+    app.$destroy()
   },
   update() {}
 })
