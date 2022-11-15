@@ -1,13 +1,7 @@
 {
     "microPages": {
       "/": {
-        "pageConfiguration": "page-config",
-        "microFrontends": [
-          {
-            "entryPoint": "//localhost:3001",
-            "id": "microfrontend-test-1"
-          }
-        ]
+        "pageConfiguration": "page-config"
       }
     }
   }

@@ -1,11 +1,9 @@
 {
     "type": "flex-row",
     "content": [{
-        "type": "element",
-        "tag": "div",
-        "attributes": {
-            "id":"communication-mfe-iframe-react"
-        }
+        "type": "micro-frontend",
+        "tag": "communication-react-mfe",
+        "url": "//localhost:3001/index.js"
     }, {
         "type": "element",
         "tag": "iframe",

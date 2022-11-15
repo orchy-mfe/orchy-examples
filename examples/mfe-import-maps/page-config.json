@@ -1,10 +1,8 @@
 {
     "type": "flex-row",
     "content": [{
-        "type": "element",
-        "tag": "div",
-        "attributes": {
-            "id":"orchy-root"
-        }
+        "type": "micro-frontend",
+        "tag": "react-import-map",
+        "url": "//localhost:3001/index.js"
     }]
 }
