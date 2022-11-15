@@ -1,16 +1,12 @@
 {
     "type": "flex-row",
     "content": [{
-        "type": "element",
-        "tag": "div",
-        "attributes": {
-            "id":"communication-mfe-mfe-react"
-        }
+        "type": "micro-frontend",
+        "tag": "communication-mfe-mfe-react",
+        "url": "//localhost:3001/index.js"
     }, {
-        "type": "element",
-        "tag": "div",
-        "attributes": {
-            "id":"communication-mfe-mfe-svelte"
-        }
+        "type": "micro-frontend",
+        "tag": "communication-mfe-mfe-svelte",
+        "url": "//localhost:5000/index.js"
     }]
 }
