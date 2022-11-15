@@ -1,19 +1,7 @@
 {
   "microPages": {
     "/": {
-      "pageConfiguration": "page-config",
-      "microFrontends": [
-        {
-          "entryPoint": "//localhost:3001",
-          "id": "microfrontend-test-1",
-          "container": "#communication-mfe-mfe-react"
-        },
-        {
-          "entryPoint": "//localhost:5000",
-          "id": "microfrontend-test-2",
-          "container": "#communication-mfe-mfe-svelte"
-        }
-      ]
+      "pageConfiguration": "page-config"
     }
   }
 }
