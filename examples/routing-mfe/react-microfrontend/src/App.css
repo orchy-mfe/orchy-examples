@@ -5,13 +5,9 @@ react-routing-mfe {
   text-align: center;
 }
 
-.card {
+react-routing-mfe .card {
   padding: 2em;
   display: flex;
   flex-direction: column;
   gap: 16px;
-}
-
-.read-the-docs {
-  color: #888;
 }
