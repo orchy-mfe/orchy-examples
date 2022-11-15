@@ -4,16 +4,12 @@
         "style": "width: 100vw"
     },
     "content": [{
-        "type": "element",
-        "tag": "div",
-        "attributes": {
-            "id":"root"
-        }
+        "type": "micro-frontend",
+        "tag": "react-routing-mfe",
+        "url": "//localhost:3001/index.js"
     }, {
-        "type": "element",
-        "tag": "div",
-        "attributes": {
-            "id":"app"
-        }
+        "type": "micro-frontend",
+        "tag": "svelte-routing-mfe",
+        "url": "//localhost:5000/index.js"
     }]
 }
