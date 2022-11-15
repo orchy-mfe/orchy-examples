@@ -3,19 +3,26 @@ import {defineConfig} from 'vite'
 import svgr from 'vite-plugin-svgr'
 import {visualizer} from 'rollup-plugin-visualizer'
 import react from '@vitejs/plugin-react'
-import qiankun from 'vite-plugin-qiankun'
+import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
 
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 3000
 
 export default defineConfig(({mode}) => ({
   plugins: [
     svgr(),
     react({fastRefresh: false}),
-    qiankun('communication-counter-react-mfe', {useDevMode: true}),
     visualizer(),
+    cssInjectedByJsPlugin()
   ],
-  base: mode === 'development' ? `http://localhost:${port}/` : '/communication-counter-react-mfe/',
+  base: mode === 'development' ? `http://localhost:${port}/` : '/react-microfrontend/',
   server: {port, cors: true},
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: '[name].js'
+      }
+    }
+  },
   test: {
     environment: 'happy-dom',
     mockReset: true

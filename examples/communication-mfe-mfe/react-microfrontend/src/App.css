@@ -1,11 +1,11 @@
-#communication-mfe-mfe-react {
+communication-mfe-mfe-react {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-#communication-mfe-mfe-react .card {
+communication-mfe-mfe-react .card {
   padding: 2em;
   display: flex;
   flex-direction: column;
