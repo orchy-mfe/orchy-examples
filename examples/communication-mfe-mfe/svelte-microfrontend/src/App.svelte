@@ -5,10 +5,10 @@
 
   const history = createHistory(window)
 
-  export let eventBus, baseUrl
+  export let eventBus, basePath
 </script>
 
-<Router basepath={baseUrl} history={history}>
+<Router basepath={basePath} history={history}>
   <SvelteLogo />
 
   <div class="card">
