@@ -4,8 +4,8 @@
   const navigate = useNavigate()
 
   const changeRoute = () => {
-    const nextLoction = location.pathname.includes('foo') ? 'bar' : 'foo'
-    navigate(nextLoction)
+    const nextLocation = location.hash.includes('foo') ? 'bar' : 'foo'
+    navigate(nextLocation)
   }
 
 </script>

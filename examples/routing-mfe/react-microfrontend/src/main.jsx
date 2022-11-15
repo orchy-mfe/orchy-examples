@@ -1,6 +1,6 @@
 import {StrictMode} from 'react'
 import {createRoot} from 'react-dom/client'
-import {BrowserRouter} from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
 import App from './App'
 import './index.css'
 
@@ -10,9 +10,9 @@ export class ReactMfe extends OrchyMicroFrontend {
     this.root = createRoot(this.getContainer())
     this.root.render(
       <StrictMode>
-        <BrowserRouter basename={microFrontendProperties?.basePath}>
+        <HashRouter basename={microFrontendProperties?.basePath}>
           <App {...microFrontendProperties} />
-        </BrowserRouter>
+        </HashRouter>
       </StrictMode>
     )
   }
