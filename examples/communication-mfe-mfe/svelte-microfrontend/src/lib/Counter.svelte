@@ -1,10 +1,18 @@
 <script>
-  let count = 0
+  export let eventBus = {}
+  let counter = 0
   const increment = () => {
-    count += 1
+    counter++
+    eventBus.next(counter)
   }
+  eventBus.subscribe?.((newCounter) => {
+    counter = newCounter
+  })
 </script>
 
-<button on:click={increment}>
-  count is {count}
-</button>
+<div style="display: flex;flex-direction: column">
+  <button on:click={increment}>
+   Increment
+  </button>
+  Counter: {counter}
+</div>
