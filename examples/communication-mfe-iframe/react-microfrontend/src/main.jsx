@@ -11,7 +11,7 @@ export class ReactMfe extends OrchyMicroFrontend {
     this.root.render(
       <StrictMode>
         <BrowserRouter basename={microFrontendProperties?.basePath}>
-          <App />
+          <App {...microFrontendProperties} />
         </BrowserRouter>
       </StrictMode>
     )
