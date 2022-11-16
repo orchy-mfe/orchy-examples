@@ -8,7 +8,7 @@ function App() {
   const navigate = useNavigate()
 
   const changeRoute = () => {
-    const nextLocation = location.hash.includes('foo') ? '/bar' : '/foo'
+    const nextLocation = location.pathname.includes('foo') ? '/bar' : '/foo'
     navigate(nextLocation)
   }
 
