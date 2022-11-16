@@ -1,4 +1,4 @@
-import {Route, Routes, useLocation, useNavigate} from 'react-router-dom'
+import {Route, Routes, useLocation, useNavigate, Navigate} from 'react-router-dom'
 import {ReactComponent as ReactLogo} from './assets/react.svg'
 
 import './App.css'
@@ -22,6 +22,7 @@ function App() {
         <Routes>
           <Route element={'Foo path loaded'} path='/foo' />
           <Route element={'Bar path loaded'} path='/bar' />
+          <Route element={<Navigate to='/foo' />} path='*' />
         </Routes>
       </div>
     </div>
