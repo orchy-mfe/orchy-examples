@@ -1,0 +1,16 @@
+{
+  "name": "communication-mfe-iframe",
+  "version": "1.0.0",
+  "description": "In this example we have the following scenario:",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^12.0.0"
+  },
+  "scripts": {
+    "pree2e": "pnpm -r dev",
+    "e2e": "echo e2e"
+  },
+  "keywords": [],
+  "author": "Matteo Pietro Dazzi",
+  "license": "MIT"
+}
