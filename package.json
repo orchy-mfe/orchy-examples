@@ -1,0 +1,27 @@
+{
+  "name": "orchy-examples",
+  "version": "1.0.0",
+  "description": "This repository includes some examples about how to configure orchy and how to implement the related Micro Frontends.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "pree2e": "cd node_modules/orchy-core && pnpm i",
+    "e2e": "echo e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orchy-mfe/orchy-examples.git"
+  },
+  "keywords": [],
+  "author": "Matteo Pietro Dazzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orchy-mfe/orchy-examples/issues"
+  },
+  "homepage": "https://github.com/orchy-mfe/orchy-examples#readme",
+  "dependencies": {
+    "orchy-core": "github:orchy-mfe/orchy-core"
+  }
+}

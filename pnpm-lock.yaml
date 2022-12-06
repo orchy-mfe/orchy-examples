@@ -1,0 +1,17 @@
+lockfileVersion: 5.4
+
+specifiers:
+  orchy-core: github:orchy-mfe/orchy-core
+
+dependencies:
+  orchy-core: github.com/orchy-mfe/orchy-core/a6ae5e31187db8d537d917ddd4830b9cfd89d068
+
+packages:
+
+  github.com/orchy-mfe/orchy-core/a6ae5e31187db8d537d917ddd4830b9cfd89d068:
+    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/a6ae5e31187db8d537d917ddd4830b9cfd89d068}
+    name: orchy-core
+    version: 0.0.1
+    prepare: true
+    requiresBuild: true
+    dev: false
