@@ -12,7 +12,7 @@
 
 <div style="display: flex;flex-direction: column">
   <button on:click={increment}>
-   Increment
+   Increment Svelte
   </button>
-  Counter: {counter}
+  Counter Svelte: {counter}
 </div>

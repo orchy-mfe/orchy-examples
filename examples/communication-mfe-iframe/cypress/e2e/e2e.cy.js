@@ -88,6 +88,4 @@ describe('communication-mfe-iframe', () => {
 
     it('works bidirectional communication', bidirectionalCommunication)
   })
-
-  
 })

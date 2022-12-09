@@ -26,9 +26,9 @@ function App({eventBus = FAKE_BUS}) {
       <ReactLogo />
       <div className="card">
         <button onClick={increment}>
-          Increment
+          Increment React
         </button>
-        Counter: {counter}
+        Counter React: {counter}
       </div>
     </div>
   )
