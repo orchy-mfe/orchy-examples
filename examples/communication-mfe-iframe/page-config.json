@@ -3,7 +3,7 @@
     "content": [{
         "type": "micro-frontend",
         "tag": "communication-react-mfe",
-        "url": "//localhost:3001/index.js"
+        "url": "//localhost:3001/src/main.jsx"
     }, {
         "type": "element",
         "tag": "iframe",
