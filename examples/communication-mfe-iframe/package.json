@@ -6,7 +6,7 @@
   "scripts": {
     "e2e": "pnpm dev & pnpm cypress && pnpm dev:teardown",
     "dev": "pnpm -r dev",
-    "cypress": "cypress run --browser chrome",
+    "cypress": "cypress run && cypress run --browser chrome && cypress run --browser edge",
     "dev:teardown": "kill-port 3001 && kill-port 5000"
   },
   "keywords": [],
