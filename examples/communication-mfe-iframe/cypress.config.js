@@ -6,6 +6,7 @@ module.exports = defineConfig({
     video: false,
     screenshotOnRunFailure: false,
     chromeWebSecurity: false,
-    fixturesFolder: './'
+    fixturesFolder: './',
+    experimentalWebKitSupport: true
   },
 });

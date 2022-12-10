@@ -5,7 +5,7 @@ module.exports = defineConfig({
     baseUrl: 'http://localhost:5173',
     video: false,
     screenshotOnRunFailure: false,
-    chromeWebSecurity: false,
-    fixturesFolder: './'
+    fixturesFolder: './',
+    experimentalWebKitSupport: true
   },
 });

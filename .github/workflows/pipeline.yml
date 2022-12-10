@@ -24,4 +24,5 @@ jobs:
         with:
           version: latest
       - run: pnpm install --frozen-lockfile
+      - run: npx playwright install
       - run: pnpm e2e

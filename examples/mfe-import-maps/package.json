@@ -4,7 +4,10 @@
   "description": "In this example we have the following scenario:",
   "main": "cypress.config.js",
   "scripts": {
-    "e2e": "pnpm -r dev & cypress run && kill-port 3001"
+    "e2e": "pnpm dev & pnpm cypress && pnpm dev:teardown",
+    "dev": "pnpm -r dev",
+    "cypress": "cypress run",
+    "dev:teardown": "kill-port 3001"
   },
   "keywords": [],
   "author": "Matteo Pietro Dazzi",
