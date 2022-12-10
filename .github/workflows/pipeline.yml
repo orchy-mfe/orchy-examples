@@ -2,6 +2,8 @@ name: orchy-e2e CI
 
 on:
   push:
+    branches: [ main ]
+    tags: '*'
   pull_request:
     branches: [ main ]
 
