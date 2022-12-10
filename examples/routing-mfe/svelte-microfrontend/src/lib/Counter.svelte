@@ -12,13 +12,13 @@
 
 <div class="container">
   <button on:click={changeRoute}>
-    Navigate
+    Navigate Svelte
    </button>
   <Route path="foo">
-    Foo path loaded
+    Svelte: Foo path loaded
   </Route>
   <Route path="bar">
-    Bar path loaded
+    Svelte: Bar path loaded
   </Route>
 </div>
 

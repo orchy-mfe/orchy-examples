@@ -9,7 +9,7 @@
   "scripts": {
     "prepare": "cd ./node_modules/orchy-core && pnpm i &",
     "pree2e": "cd ./node_modules/orchy-core && pnpm dev &",
-    "e2e": "pnpm --filter communication-mfe-iframe e2e && pnpm --filter communication-mfe-mfe e2e && pnpm --filter mfe-import-maps e2e",
+    "e2e": "pnpm --filter communication-mfe-iframe e2e && pnpm --filter communication-mfe-mfe e2e && pnpm --filter mfe-import-maps e2e && pnpm --filter routing-mfe e2e",
     "poste2e": "kill-port 3000 && kill-port 5173 && kill-port 5174"
   },
   "repository": {

@@ -8,7 +8,7 @@ importers:
       orchy-core: github:orchy-mfe/orchy-core
     devDependencies:
       kill-port-process: 3.1.0
-      orchy-core: github.com/orchy-mfe/orchy-core/b16aa0d47c265915cfc86c4f6da124928a9eb057
+      orchy-core: github.com/orchy-mfe/orchy-core/7ec9055b4caf6983a0c4a6150d533bca344bd6bd
 
   examples/communication-mfe-iframe:
     specifiers:
@@ -255,6 +255,18 @@ importers:
       vite-plugin-css-injected-by-js: 2.1.1_vite@3.2.5
       vite-plugin-svgr: 2.2.2_vite@3.2.5
       vitest: 0.25.5_happy-dom@7.7.2
+
+  examples/routing-mfe:
+    specifiers:
+      '@testing-library/cypress': ^8.0.7
+      cypress: ^12.0.2
+      cypress-iframe: ^1.0.1
+      kill-port-process: ^3.1.0
+    devDependencies:
+      '@testing-library/cypress': 8.0.7_cypress@12.0.2
+      cypress: 12.0.2
+      cypress-iframe: 1.0.1_@types+cypress@1.1.3
+      kill-port-process: 3.1.0
 
   examples/routing-mfe/react-microfrontend:
     specifiers:
@@ -6716,8 +6728,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/orchy-mfe/orchy-core/b16aa0d47c265915cfc86c4f6da124928a9eb057:
-    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/b16aa0d47c265915cfc86c4f6da124928a9eb057}
+  github.com/orchy-mfe/orchy-core/7ec9055b4caf6983a0c4a6150d533bca344bd6bd:
+    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/7ec9055b4caf6983a0c4a6150d533bca344bd6bd}
     name: orchy-core
     version: 0.0.1
     prepare: true

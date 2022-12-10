@@ -17,11 +17,11 @@ function App() {
       <ReactLogo />
       <div className="card">
         <button onClick={changeRoute}>
-          Navigate
+          Navigate React
         </button>
         <Routes>
-          <Route element={'Foo path loaded'} path='/foo' />
-          <Route element={'Bar path loaded'} path='/bar' />
+          <Route element={'React: Foo path loaded'} path='/foo' />
+          <Route element={'React: Bar path loaded'} path='/bar' />
           <Route element={<Navigate to='/foo' />} path='*' />
         </Routes>
       </div>
