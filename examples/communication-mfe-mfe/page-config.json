@@ -3,10 +3,10 @@
     "content": [{
         "type": "micro-frontend",
         "tag": "communication-mfe-mfe-react",
-        "url": "//localhost:3001/index.js"
+        "url": "//localhost:3001/src/main.jsx"
     }, {
         "type": "micro-frontend",
         "tag": "communication-mfe-mfe-svelte",
-        "url": "//localhost:5000/index.js"
+        "url": "//localhost:5000/src/main.js"
     }]
 }

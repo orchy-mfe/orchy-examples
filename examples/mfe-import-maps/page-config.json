@@ -3,6 +3,6 @@
     "content": [{
         "type": "micro-frontend",
         "tag": "react-import-map",
-        "url": "//localhost:3001/index.js"
+        "url": "//localhost:3001/src/main.jsx"
     }]
 }

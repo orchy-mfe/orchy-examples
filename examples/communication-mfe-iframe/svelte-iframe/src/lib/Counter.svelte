@@ -10,9 +10,9 @@
 </script>
 
 <div>
-  <input type="text" bind:value={message} style="width: 100%; margin-bottom: 16px">
+  <input type="text" bind:value={message} placeholder='Message for micro frontend' style="width: 100%; margin-bottom: 16px">
   <button on:click={sendMessage}>
-   Send message
+   Send message to micro frontend
   </button>
   Received message: {receivedMessage}
 </div>

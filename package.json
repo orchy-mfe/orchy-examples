@@ -7,8 +7,10 @@
     "example": "examples"
   },
   "scripts": {
-    "pree2e": "cd node_modules/orchy-core && pnpm i",
-    "e2e": "echo e2e"
+    "prepare": "cd ./node_modules/orchy-core && pnpm i &",
+    "pree2e": "cd ./node_modules/orchy-core && pnpm w:wc dev &",
+    "e2e": "pnpm -r --workspace-concurrency 1 e2e",
+    "poste2e": "kill-port 5173"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,8 @@
     "url": "https://github.com/orchy-mfe/orchy-examples/issues"
   },
   "homepage": "https://github.com/orchy-mfe/orchy-examples#readme",
-  "dependencies": {
+  "devDependencies": {
+    "kill-port-process": "^3.1.0",
     "orchy-core": "github:orchy-mfe/orchy-core"
   }
 }
