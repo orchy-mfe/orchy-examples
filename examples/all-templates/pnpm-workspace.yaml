@@ -1,2 +1,8 @@
 packages:
-  - 'react-microfrontend'
+  - angular
+  - preact
+  - react
+  - solid
+  - svelte
+  - vanilla
+  - vue
