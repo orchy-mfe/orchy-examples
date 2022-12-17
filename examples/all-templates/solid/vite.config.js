@@ -5,7 +5,7 @@ import solidPlugin from 'vite-plugin-solid'
 import solidSvg from 'vite-plugin-solid-svg'
 import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3002
 
 export default defineConfig(({mode}) => ({
   plugins: [

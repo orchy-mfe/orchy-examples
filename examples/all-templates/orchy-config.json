@@ -1,0 +1,8 @@
+{
+    "microPages": {
+      "/": {
+        "pageConfiguration": "page-config.json"
+      }
+    },
+    "common": {}
+  }

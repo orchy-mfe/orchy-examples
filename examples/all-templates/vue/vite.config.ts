@@ -5,7 +5,7 @@ import svgLoader from "vite-svg-loader";
 import { visualizer } from "rollup-plugin-visualizer";
 import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 
-const port = process.env.PORT ? parseInt(process.env.PORT) : 8080;
+const port = process.env.PORT ? parseInt(process.env.PORT) : 8081;
 
 export default defineConfig(({ mode }) => ({
   plugins: [

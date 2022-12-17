@@ -1,11 +1,11 @@
 /// <reference types="vitest" />
-import {defineConfig} from 'vite'
 import preact from '@preact/preset-vite'
-import svgr from 'vite-plugin-svgr'
-import {visualizer} from 'rollup-plugin-visualizer'
+import { visualizer } from 'rollup-plugin-visualizer'
+import { defineConfig } from 'vite'
 import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
+import svgr from 'vite-plugin-svgr'
 
-const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000
+const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3001
 
 export default defineConfig(({mode}) => ({
   plugins: [
