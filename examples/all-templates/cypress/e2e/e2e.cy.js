@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-describe('mfe-import-maps', () => {
+describe('all-templates', () => {
   const renderAll = () => {
     cy.findByText('Love Angular?')
     cy.findByText('Vite + Preact')

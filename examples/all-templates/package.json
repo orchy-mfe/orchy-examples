@@ -7,7 +7,7 @@
     "e2e": "pnpm dev & pnpm cypress && pnpm dev:teardown",
     "dev": "pnpm -r --workspace-concurrency 7 dev",
     "cypress": "cypress run",
-    "dev:teardown": "kill-port 3001"
+    "dev:teardown": "kill-port 4200 && kill-port 3001 && kill-port 3000 && kill-port 3002 && kill-port 5000 && kill-port 8080 && kill-port 8081"
   },
   "keywords": [],
   "author": "Matteo Pietro Dazzi",
