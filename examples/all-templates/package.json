@@ -5,7 +5,7 @@
   "main": "cypress.config.js",
   "scripts": {
     "e2e": "pnpm dev & pnpm cypress && pnpm dev:teardown",
-    "dev": "pnpm -r dev",
+    "dev": "pnpm -r --workspace-concurrency 7 dev",
     "cypress": "cypress run",
     "dev:teardown": "kill-port 3001"
   },
