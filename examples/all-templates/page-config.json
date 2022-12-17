@@ -6,27 +6,27 @@
         "url": "//localhost:4200/src/main.ts"
     }, {
         "type": "micro-frontend",
-        "tag": "preact-mfe",
+        "tag": "preact-mfe-typescript",
         "url": "//localhost:3001/src/main.tsx"
     }, {
         "type": "micro-frontend",
-        "tag": "react-mfe",
+        "tag": "react-mfe-typescript",
         "url": "//localhost:3000/src/main.tsx"
     }, {
         "type": "micro-frontend",
-        "tag": "solid-mfe",
+        "tag": "solid-mfe-typescript",
         "url": "//localhost:3002/src/index.tsx"
     }, {
         "type": "micro-frontend",
-        "tag": "svelte-mfe",
+        "tag": "svelte-mfe-typescript",
         "url": "//localhost:5000/src/main.ts"
     }, {
         "type": "micro-frontend",
-        "tag": "vanilla-mfe",
+        "tag": "vanilla-mfe-typescript",
         "url": "//localhost:8080/src/main.ts"
     }, {
         "type": "micro-frontend",
-        "tag": "vue-mfe",
+        "tag": "vue-mfe-typescript",
         "url": "//localhost:8081/src/main.ts"
     }]
 }

@@ -1,9 +1,13 @@
 /// <reference types="cypress" />
 describe('mfe-import-maps', () => {
-  const importMaps = () => {
-    cy.findByText('count is 0').click()
-    cy.findByText('count is 1').click()
-    cy.findByText('count is 2')
+  const renderAll = () => {
+    cy.findByText('Love Angular?')
+    cy.findByText('Vite + Preact')
+    cy.findByText('Vite + React')
+    cy.findByText('Learn Solid')
+    cy.findByText('Vite + Svelte')
+    cy.findByText('Vite + TypeScript')
+    cy.findByText('Vite + Vue')
   }
 
   describe('json page config', () => {
@@ -24,8 +28,8 @@ describe('mfe-import-maps', () => {
 
       cy.visit('/')
     })
-  
-    it('import maps', importMaps)
+
+    it('loads all mfe', renderAll)
   })
 
   describe('html page config', () => {
@@ -47,7 +51,7 @@ describe('mfe-import-maps', () => {
 
       cy.visit('/')
     })
-  
-    it('import maps', importMaps)
+
+    it('loads all mfe', renderAll)
   })
 })
