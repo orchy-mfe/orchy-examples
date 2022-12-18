@@ -8,7 +8,7 @@ importers:
       orchy-core: github:orchy-mfe/orchy-core
     devDependencies:
       kill-port-process: 3.1.0
-      orchy-core: github.com/orchy-mfe/orchy-core/744876761a4338ebfbf5699ff9faeb7f3be7cef5
+      orchy-core: github.com/orchy-mfe/orchy-core/8fd03f5e6640e9689858c24117c1610294cd261b
 
   examples/all-templates:
     specifiers:
@@ -16,11 +16,13 @@ importers:
       cypress: ^12.0.2
       kill-port-process: ^3.1.0
       playwright-webkit: ^1.28.1
+      wait-port: ^1.0.4
     devDependencies:
       '@testing-library/cypress': 8.0.7_cypress@12.0.2
       cypress: 12.0.2
       kill-port-process: 3.1.0
       playwright-webkit: 1.28.1
+      wait-port: 1.0.4
 
   examples/all-templates/angular:
     specifiers:
@@ -6296,6 +6298,11 @@ packages:
   /commander/7.2.0:
     resolution: {integrity: sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==}
     engines: {node: '>= 10'}
+    dev: true
+
+  /commander/9.4.1:
+    resolution: {integrity: sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==}
+    engines: {node: ^12.20.0 || >=14}
     dev: true
 
   /common-tags/1.8.2:
@@ -14068,6 +14075,18 @@ packages:
       xml-name-validator: 4.0.0
     dev: true
 
+  /wait-port/1.0.4:
+    resolution: {integrity: sha512-w8Ftna3h6XSFWWc2JC5gZEgp64nz8bnaTp5cvzbJSZ53j+omktWTDdwXxEF0jM8YveviLgFWvNGrSvRHnkyHyw==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      chalk: 4.1.2
+      commander: 9.4.1
+      debug: 4.3.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /watchpack/2.4.0:
     resolution: {integrity: sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==}
     engines: {node: '>=10.13.0'}
@@ -14464,8 +14483,8 @@ packages:
     dependencies:
       tslib: 2.4.1
 
-  github.com/orchy-mfe/orchy-core/744876761a4338ebfbf5699ff9faeb7f3be7cef5:
-    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/744876761a4338ebfbf5699ff9faeb7f3be7cef5}
+  github.com/orchy-mfe/orchy-core/8fd03f5e6640e9689858c24117c1610294cd261b:
+    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/8fd03f5e6640e9689858c24117c1610294cd261b}
     name: orchy-core
     version: 0.0.1
     prepare: true

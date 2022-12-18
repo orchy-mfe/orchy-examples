@@ -5,7 +5,7 @@
   "main": "cypress.config.js",
   "scripts": {
     "e2e": "pnpm dev & pnpm cypress && pnpm dev:teardown",
-    "dev": "pnpm -r --workspace-concurrency 7 dev",
+    "dev": "pnpm -r --workspace-concurrency 7 dev && wait-port 8081",
     "cypress": "cypress run",
     "dev:teardown": "kill-port 4200 && kill-port 3001 && kill-port 3000 && kill-port 3002 && kill-port 5000 && kill-port 8080 && kill-port 8081"
   },
@@ -16,6 +16,7 @@
     "@testing-library/cypress": "^8.0.7",
     "cypress": "^12.0.2",
     "kill-port-process": "^3.1.0",
-    "playwright-webkit": "^1.28.1"
+    "playwright-webkit": "^1.28.1",
+    "wait-port": "^1.0.4"
   }
 }
