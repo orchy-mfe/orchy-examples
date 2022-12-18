@@ -6,9 +6,11 @@ importers:
     specifiers:
       kill-port-process: ^3.1.0
       orchy-core: github:orchy-mfe/orchy-core
+      wait-port: ^1.0.4
     devDependencies:
       kill-port-process: 3.1.0
       orchy-core: github.com/orchy-mfe/orchy-core/8fd03f5e6640e9689858c24117c1610294cd261b
+      wait-port: 1.0.4
 
   examples/all-templates:
     specifiers:
@@ -375,11 +377,13 @@ importers:
       cypress: ^12.0.2
       cypress-iframe: ^1.0.1
       kill-port-process: ^3.1.0
+      wait-port: ^1.0.4
     devDependencies:
       '@testing-library/cypress': 8.0.7_cypress@12.0.2
       cypress: 12.0.2
       cypress-iframe: 1.0.1_@types+cypress@1.1.3
       kill-port-process: 3.1.0
+      wait-port: 1.0.4
 
   examples/communication-mfe-iframe/react-microfrontend:
     specifiers:
@@ -466,11 +470,13 @@ importers:
       cypress: ^12.0.2
       kill-port-process: ^3.1.0
       playwright-webkit: ^1.28.1
+      wait-port: ^1.0.4
     devDependencies:
       '@testing-library/cypress': 8.0.7_cypress@12.0.2
       cypress: 12.0.2
       kill-port-process: 3.1.0
       playwright-webkit: 1.28.1
+      wait-port: 1.0.4
 
   examples/communication-mfe-mfe/react-microfrontend:
     specifiers:
@@ -564,11 +570,13 @@ importers:
       cypress: ^12.0.2
       kill-port-process: ^3.1.0
       playwright-webkit: ^1.28.1
+      wait-port: ^1.0.4
     devDependencies:
       '@testing-library/cypress': 8.0.7_cypress@12.0.2
       cypress: 12.0.2
       kill-port-process: 3.1.0
       playwright-webkit: 1.28.1
+      wait-port: 1.0.4
 
   examples/mfe-import-maps/react-microfrontend:
     specifiers:
@@ -623,11 +631,13 @@ importers:
       cypress: ^12.0.2
       kill-port-process: ^3.1.0
       playwright-webkit: ^1.28.1
+      wait-port: ^1.0.4
     devDependencies:
       '@testing-library/cypress': 8.0.7_cypress@12.0.2
       cypress: 12.0.2
       kill-port-process: 3.1.0
       playwright-webkit: 1.28.1
+      wait-port: 1.0.4
 
   examples/routing-mfe/react-microfrontend:
     specifiers:
