@@ -1,0 +1,49 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "svelte3",
+    "@typescript-eslint"
+  ],
+  "settings": {
+    "svelte3/typescript": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.svelte"
+      ],
+      "processor": "svelte3/svelte3"
+    }
+  ],
+  "rules": {
+    "no-unused-vars": "error",
+    "semi": [
+      "error",
+      "never"
+    ],
+    "quotes": [
+      2,
+      "single",
+      "avoid-escape"
+    ],
+    "object-curly-spacing": [
+      2,
+      "never"
+    ],
+    "quote-props": [
+      "error",
+      "as-needed"
+    ]
+  }
+}
