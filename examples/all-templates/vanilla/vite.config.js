@@ -12,6 +12,13 @@ export default defineConfig(({mode}) => ({
   ],
   base: mode === 'development' ? `http://localhost:${port}/` : '/vanilla/',
   server: {port, cors: true},
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: '[name].js'
+      }
+    }
+  },
   test: {
     environment: 'happy-dom',
     mockReset: true

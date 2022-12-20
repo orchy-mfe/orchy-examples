@@ -1,7 +1,7 @@
 /// <reference types="vitest" />
 import preact from '@preact/preset-vite'
-import { visualizer } from 'rollup-plugin-visualizer'
-import { defineConfig } from 'vite'
+import {visualizer} from 'rollup-plugin-visualizer'
+import {defineConfig} from 'vite'
 import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
 import svgr from 'vite-plugin-svgr'
 
@@ -16,6 +16,13 @@ export default defineConfig(({mode}) => ({
   ],
   base: mode === 'development' ? `http://localhost:${port}/` : '/preact/',
   server: {port, cors: true},
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: '[name].js'
+      }
+    }
+  },
   test: {
     environment: 'jsdom',
     mockReset: true
