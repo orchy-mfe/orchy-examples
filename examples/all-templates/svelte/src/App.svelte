@@ -34,18 +34,18 @@
 </Router>
 
 <style>
-  .logo {
+  svelte-mfe-typescript .logo {
     height: 6em;
     padding: 1.5em;
     will-change: filter;
   }
-  .logo:hover {
+  svelte-mfe-typescript .logo:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
   }
-  .logo.svelte:hover {
+  svelte-mfe-typescript .logo.svelte:hover {
     filter: drop-shadow(0 0 2em #ff3e00aa);
   }
-  .read-the-docs {
+  svelte-mfe-typescript .read-the-docs {
     color: #888;
   }
 </style>

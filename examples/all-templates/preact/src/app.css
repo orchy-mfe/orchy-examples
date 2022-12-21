@@ -5,21 +5,21 @@ preact-mfe-typescript {
   text-align: center;
 }
 
-.logo {
+preact-mfe-typescript .logo {
   height: 6em;
   padding: 1.5em;
 }
-.logo:hover {
+preact-mfe-typescript .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.preact:hover {
+preact-mfe-typescript .logo.preact:hover {
   filter: drop-shadow(0 0 2em #673ab8aa);
 }
 
-.card {
+preact-mfe-typescript .card {
   padding: 2em;
 }
 
-.read-the-docs {
+preact-mfe-typescript .read-the-docs {
   color: #888;
 }

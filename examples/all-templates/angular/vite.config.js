@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
-import angular from '@analogjs/vite-plugin-angular'
-import { visualizer } from 'rollup-plugin-visualizer'
+import angular from '@analogjs/vite-plugin-angular';
+import { visualizer } from 'rollup-plugin-visualizer';
+import { defineConfig } from 'vite';
 
 const port = process.env.PORT ? parseInt(process.env.PORT) : 4200
 
