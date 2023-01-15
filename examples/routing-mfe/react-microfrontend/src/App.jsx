@@ -1,9 +1,10 @@
-import {Route, Routes, useLocation, useNavigate, Navigate} from 'react-router-dom'
-import {ReactComponent as ReactLogo} from './assets/react.svg'
+import {useEffect} from 'react'
+import {Navigate, Route, Routes, useLocation, useNavigate} from 'react-router-dom'
 
 import './App.css'
+import {ReactComponent as ReactLogo} from './assets/react.svg'
 
-function App() {
+function App({basePath}) {
   const location = useLocation()
   const navigate = useNavigate()
 
@@ -11,6 +12,14 @@ function App() {
     const nextLocation = location.pathname.includes('foo') ? '/bar' : '/foo'
     navigate(nextLocation)
   }
+
+  useEffect(() => {
+    return () => {
+      if (!window.location.hash && window.location.pathname === basePath) {
+        window.location.hash = basePath
+      }
+    }
+  }, [basePath, location, navigate])
 
   return (
     <div className="App">
