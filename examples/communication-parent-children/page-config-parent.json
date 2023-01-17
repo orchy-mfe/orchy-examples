@@ -4,7 +4,7 @@
         {
             "type": "element",
             "tag": "span",
-            "attributes": {
+            "properties": {
                 "innerHTML": "Parent"
             }
         },
