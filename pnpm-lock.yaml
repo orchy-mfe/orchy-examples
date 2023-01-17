@@ -9,7 +9,7 @@ importers:
       wait-port: ^1.0.4
     devDependencies:
       kill-port-process: 3.1.0
-      orchy-core: github.com/orchy-mfe/orchy-core/b370e94129ec7d9dc5979a537c1b7c1e1fc4ef81
+      orchy-core: github.com/orchy-mfe/orchy-core/ce4d20d505d3a7d1e5aefb9fe6e48ba16f810920
       wait-port: 1.0.4
 
   examples/all-templates:
@@ -563,6 +563,106 @@ importers:
       vite-plugin-css-injected-by-js: 2.1.1_vite@3.2.5
       vite-plugin-svgr: 2.2.2_vite@3.2.5
       vitest: 0.25.5_jsdom@20.0.3
+
+  examples/communication-parent-children:
+    specifiers:
+      '@testing-library/cypress': ^8.0.7
+      cypress: ^12.0.2
+      kill-port-process: ^3.1.0
+      playwright-webkit: ^1.28.1
+      wait-port: ^1.0.4
+    devDependencies:
+      '@testing-library/cypress': 8.0.7_cypress@12.0.2
+      cypress: 12.0.2
+      kill-port-process: 3.1.0
+      playwright-webkit: 1.28.1
+      wait-port: 1.0.4
+
+  examples/communication-parent-children/react-microfrontend:
+    specifiers:
+      '@orchy-mfe/spa-adapter': ^0.1.1
+      '@testing-library/react': ^13.4.0
+      '@testing-library/user-event': ^14.4.3
+      '@types/react': ^18.0.25
+      '@types/react-dom': ^18.0.9
+      '@vitejs/plugin-react': ^2.2.0
+      eslint: ^8.27.0
+      eslint-config-prettier: ^8.5.0
+      eslint-config-react-app: ^7.0.1
+      eslint-plugin-prettier: ^4.2.1
+      eslint-plugin-react: ^7.31.10
+      happy-dom: ^7.7.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      react-router-dom: ^6.4.3
+      rollup-plugin-visualizer: ^5.8.3
+      rxjs: ^7.5.7
+      vite: ^3.2.4
+      vite-plugin-css-injected-by-js: ^2.1.1
+      vite-plugin-svgr: ^2.2.2
+      vitest: ^0.25.2
+    dependencies:
+      '@orchy-mfe/spa-adapter': 0.1.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-router-dom: 6.5.0_biqbaboplfbrettd7655fr4n2y
+      rxjs: 7.8.0
+    devDependencies:
+      '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
+      '@testing-library/user-event': 14.4.3_aaq3sbffpfe3jnxzm2zngsddei
+      '@types/react': 18.0.26
+      '@types/react-dom': 18.0.9
+      '@vitejs/plugin-react': 2.2.0_vite@3.2.5
+      eslint: 8.30.0
+      eslint-config-prettier: 8.5.0_eslint@8.30.0
+      eslint-config-react-app: 7.0.1_4jtpmqisusg7n5da3sdfx7mwve
+      eslint-plugin-prettier: 4.2.1_kl4pe43v5b43npmso5hoplpbyi
+      eslint-plugin-react: 7.31.11_eslint@8.30.0
+      happy-dom: 7.7.2
+      rollup-plugin-visualizer: 5.8.3
+      vite: 3.2.5
+      vite-plugin-css-injected-by-js: 2.1.1_vite@3.2.5
+      vite-plugin-svgr: 2.4.0_vite@3.2.5
+      vitest: 0.25.8_happy-dom@7.7.2
+
+  examples/communication-parent-children/svelte-microfrontend:
+    specifiers:
+      '@orchy-mfe/spa-adapter': ^0.1.1
+      '@sveltejs/vite-plugin-svelte': ^1.1.1
+      '@testing-library/svelte': ^3.2.2
+      eslint: ^8.27.0
+      eslint-config-preact: ^1.3.0
+      eslint-config-prettier: ^8.5.0
+      eslint-plugin-prettier: ^4.2.1
+      eslint-plugin-svelte3: ^4.0.0
+      jsdom: ^20.0.2
+      rollup-plugin-visualizer: ^5.8.3
+      rxjs: ^7.5.7
+      svelte: ^3.53.1
+      svelte-navigator: ^3.2.2
+      vite: ^3.2.4
+      vite-plugin-css-injected-by-js: ^2.1.1
+      vite-plugin-svgr: ^2.2.2
+      vitest: ^0.25.2
+    dependencies:
+      '@orchy-mfe/spa-adapter': 0.1.1
+      rxjs: 7.8.0
+    devDependencies:
+      '@sveltejs/vite-plugin-svelte': 1.4.0_svelte@3.55.0+vite@3.2.5
+      '@testing-library/svelte': 3.2.2_svelte@3.55.0
+      eslint: 8.30.0
+      eslint-config-preact: 1.3.0_lzzuuodtsqwxnvqeq4g4likcqa
+      eslint-config-prettier: 8.5.0_eslint@8.30.0
+      eslint-plugin-prettier: 4.2.1_kl4pe43v5b43npmso5hoplpbyi
+      eslint-plugin-svelte3: 4.0.0_khrjkzzv5v2x7orkj5o7sxbz3a
+      jsdom: 20.0.3
+      rollup-plugin-visualizer: 5.8.3
+      svelte: 3.55.0
+      svelte-navigator: 3.2.2_niwyv7xychq2ag6arq5eqxbomm
+      vite: 3.2.5
+      vite-plugin-css-injected-by-js: 2.1.1_vite@3.2.5
+      vite-plugin-svgr: 2.4.0_vite@3.2.5
+      vitest: 0.25.8_jsdom@20.0.3
 
   examples/mfe-import-maps:
     specifiers:
@@ -3716,7 +3816,7 @@ packages:
       ajv: 6.12.6
       debug: 4.3.4
       espree: 9.4.1
-      globals: 13.18.0
+      globals: 13.19.0
       ignore: 5.2.1
       import-fresh: 3.3.0
       js-yaml: 4.1.0
@@ -4139,6 +4239,25 @@ packages:
       magic-string: 0.26.7
       svelte: 3.54.0
       svelte-hmr: 0.15.1_svelte@3.54.0
+      vite: 3.2.5
+      vitefu: 0.2.2_vite@3.2.5
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@sveltejs/vite-plugin-svelte/1.4.0_svelte@3.55.0+vite@3.2.5:
+    resolution: {integrity: sha512-6QupI/jemMfK+yI2pMtJcu5iO2gtgTfcBdGwMZZt+lgbFELhszbDl6Qjh000HgAV8+XUA+8EY8DusOFk8WhOIg==}
+    engines: {node: ^14.18.0 || >= 16}
+    peerDependencies:
+      svelte: ^3.44.0
+      vite: ^3.0.0
+    dependencies:
+      debug: 4.3.4
+      deepmerge: 4.2.2
+      kleur: 4.1.5
+      magic-string: 0.26.7
+      svelte: 3.55.0
+      svelte-hmr: 0.15.1_svelte@3.55.0
       vite: 3.2.5
       vitefu: 0.2.2_vite@3.2.5
     transitivePeerDependencies:
@@ -7869,6 +7988,28 @@ packages:
       - typescript
     dev: true
 
+  /eslint-config-preact/1.3.0_lzzuuodtsqwxnvqeq4g4likcqa:
+    resolution: {integrity: sha512-yHYXg5qNzEJd3D/30AmsIW0W8MuY858KpApXp7xxBF08IYUljSKCOqMx+dVucXHQnAm7+11wOnMkgVHIBAechw==}
+    peerDependencies:
+      eslint: 6.x || 7.x || 8.x
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/eslint-parser': 7.19.1_ak4stjm4k2uvd2drmeegtfb5ly
+      '@babel/plugin-syntax-class-properties': 7.12.13_@babel+core@7.20.5
+      '@babel/plugin-syntax-decorators': 7.19.0_@babel+core@7.20.5
+      '@babel/plugin-syntax-jsx': 7.18.6_@babel+core@7.20.5
+      eslint: 8.30.0
+      eslint-plugin-compat: 4.0.2_eslint@8.30.0
+      eslint-plugin-jest: 25.7.0_lzzuuodtsqwxnvqeq4g4likcqa
+      eslint-plugin-react: 7.31.11_eslint@8.30.0
+      eslint-plugin-react-hooks: 4.6.0_eslint@8.30.0
+    transitivePeerDependencies:
+      - '@typescript-eslint/eslint-plugin'
+      - jest
+      - supports-color
+      - typescript
+    dev: true
+
   /eslint-config-prettier/8.5.0_eslint@8.29.0:
     resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
@@ -8207,6 +8348,26 @@ packages:
       '@typescript-eslint/eslint-plugin': 5.46.1_imrg37k3svwu377c6q7gkarwmi
       '@typescript-eslint/experimental-utils': 5.45.1_ha6vam6werchizxrnqvarmz2zu
       eslint: 8.29.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+    dev: true
+
+  /eslint-plugin-jest/25.7.0_lzzuuodtsqwxnvqeq4g4likcqa:
+    resolution: {integrity: sha512-PWLUEXeeF7C9QGKqvdSbzLOiLTx+bno7/HC9eefePfEb257QFHg7ye3dh80AZVkaa/RQsBB1Q/ORQvg2X7F0NQ==}
+    engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    peerDependencies:
+      '@typescript-eslint/eslint-plugin': ^4.0.0 || ^5.0.0
+      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+      jest: '*'
+    peerDependenciesMeta:
+      '@typescript-eslint/eslint-plugin':
+        optional: true
+      jest:
+        optional: true
+    dependencies:
+      '@typescript-eslint/experimental-utils': 5.45.1_lzzuuodtsqwxnvqeq4g4likcqa
+      eslint: 8.30.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -13129,7 +13290,7 @@ packages:
       http-basic: 8.1.3
       http-response-object: 3.0.2
       promise: 8.3.0
-      qs: 6.5.3
+      qs: 6.11.0
     dev: true
 
   /throttleit/1.0.0:
@@ -13535,6 +13696,19 @@ packages:
       - supports-color
     dev: true
 
+  /vite-plugin-svgr/2.4.0_vite@3.2.5:
+    resolution: {integrity: sha512-q+mJJol6ThvqkkJvvVFEndI4EaKIjSI0I3jNFgSoC9fXAz1M7kYTVUin8fhUsFojFDKZ9VHKtX6NXNaOLpbsHA==}
+    peerDependencies:
+      vite: ^2.6.0 || 3 || 4
+    dependencies:
+      '@rollup/pluginutils': 5.0.2
+      '@svgr/core': 6.5.1
+      vite: 3.2.5
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
   /vite-plugin-svgr/2.4.0_vite@4.0.1:
     resolution: {integrity: sha512-q+mJJol6ThvqkkJvvVFEndI4EaKIjSI0I3jNFgSoC9fXAz1M7kYTVUin8fhUsFojFDKZ9VHKtX6NXNaOLpbsHA==}
     peerDependencies:
@@ -13581,7 +13755,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.15.18
-      postcss: 8.4.19
+      postcss: 8.4.20
       resolve: 1.22.1
       rollup: 2.79.1
     optionalDependencies:
@@ -13615,7 +13789,7 @@ packages:
     dependencies:
       '@types/node': 14.18.34
       esbuild: 0.15.18
-      postcss: 8.4.19
+      postcss: 8.4.20
       resolve: 1.22.1
       rollup: 2.79.1
     optionalDependencies:
@@ -13871,6 +14045,52 @@ packages:
       tinypool: 0.3.0
       tinyspy: 1.0.2
       vite: 3.2.5_@types+node@14.18.34
+    transitivePeerDependencies:
+      - less
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+    dev: true
+
+  /vitest/0.25.8_happy-dom@7.7.2:
+    resolution: {integrity: sha512-X75TApG2wZTJn299E/TIYevr4E9/nBo1sUtZzn0Ci5oK8qnpZAZyhwg0qCeMSakGIWtc6oRwcQFyFfW14aOFWg==}
+    engines: {node: '>=v14.16.0'}
+    hasBin: true
+    peerDependencies:
+      '@edge-runtime/vm': '*'
+      '@vitest/browser': '*'
+      '@vitest/ui': '*'
+      happy-dom: '*'
+      jsdom: '*'
+    peerDependenciesMeta:
+      '@edge-runtime/vm':
+        optional: true
+      '@vitest/browser':
+        optional: true
+      '@vitest/ui':
+        optional: true
+      happy-dom:
+        optional: true
+      jsdom:
+        optional: true
+    dependencies:
+      '@types/chai': 4.3.4
+      '@types/chai-subset': 1.3.3
+      '@types/node': 14.18.34
+      acorn: 8.8.1
+      acorn-walk: 8.2.0
+      chai: 4.3.7
+      debug: 4.3.4
+      happy-dom: 7.7.2
+      local-pkg: 0.4.2
+      source-map: 0.6.1
+      strip-literal: 1.0.0
+      tinybench: 2.3.1
+      tinypool: 0.3.0
+      tinyspy: 1.0.2
+      vite: 4.0.3_@types+node@14.18.34
     transitivePeerDependencies:
       - less
       - sass
@@ -14493,8 +14713,8 @@ packages:
     dependencies:
       tslib: 2.4.1
 
-  github.com/orchy-mfe/orchy-core/b370e94129ec7d9dc5979a537c1b7c1e1fc4ef81:
-    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/b370e94129ec7d9dc5979a537c1b7c1e1fc4ef81}
+  github.com/orchy-mfe/orchy-core/ce4d20d505d3a7d1e5aefb9fe6e48ba16f810920:
+    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/ce4d20d505d3a7d1e5aefb9fe6e48ba16f810920}
     name: orchy-core
     version: 0.0.1
     prepare: true

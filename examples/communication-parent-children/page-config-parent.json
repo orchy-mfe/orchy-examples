@@ -1,0 +1,14 @@
+{
+    "type": "flex-row",
+    "content": [{
+        "type": "micro-frontend",
+        "tag": "communication-mfe-mfe-react",
+        "url": "//localhost:3001/src/main.jsx"
+    }, {
+        "type": "element",
+        "tag": "orchy-wc",
+        "attributes": {
+            "configurationName": "orchy-config-children.json"
+        }
+    }]
+}

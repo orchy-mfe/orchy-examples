@@ -1,0 +1,10 @@
+{
+    "type": "flex-row",
+    "content": [
+        {
+            "type": "micro-frontend",
+            "tag": "communication-mfe-mfe-svelte",
+            "url": "//localhost:5000/src/main.js"
+        }
+    ]
+}

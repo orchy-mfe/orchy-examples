@@ -1,0 +1,7 @@
+{
+  "microPages": {
+    "/": {
+      "pageConfiguration": "page-config-parent.json"
+    }
+  }
+}
