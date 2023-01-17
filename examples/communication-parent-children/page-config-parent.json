@@ -1,5 +1,5 @@
 {
-    "type": "flex-row",
+    "type": "flex-column",
     "content": [{
         "type": "micro-frontend",
         "tag": "communication-mfe-mfe-react",
