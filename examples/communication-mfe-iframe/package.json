@@ -4,20 +4,17 @@
   "description": "In this example we have the following scenario:",
   "main": "index.js",
   "scripts": {
-    "e2e": "pnpm dev & pnpm dev:wait-boot && pnpm cypress && pnpm dev:teardown",
-    "dev:wait-boot": "wait-port 3001 && wait-port 5000",
+    "e2e": "start-test 'dev' '3001|5000' 'cypress'",
     "dev": "pnpm -r --workspace-concurrency 2 dev",
-    "cypress": "cypress run && cypress run --browser chrome && cypress run --browser edge",
-    "dev:teardown": "kill-port 3001 && kill-port 5000"
+    "cypress": "cypress run && cypress run --browser chrome && cypress run --browser edge"
   },
   "keywords": [],
   "author": "Matteo Pietro Dazzi",
   "license": "MIT",
   "devDependencies": {
-    "@testing-library/cypress": "^8.0.7",
-    "cypress": "^12.0.2",
+    "@testing-library/cypress": "^9.0.0",
+    "cypress": "^12.3.0",
     "cypress-iframe": "^1.0.1",
-    "kill-port-process": "^3.1.0",
-    "wait-port": "^1.0.4"
+    "start-server-and-test": "^1.15.3"
   }
 }

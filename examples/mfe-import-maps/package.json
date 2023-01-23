@@ -4,20 +4,17 @@
   "description": "In this example we have the following scenario:",
   "main": "cypress.config.js",
   "scripts": {
-    "e2e": "pnpm dev & pnpm dev:wait-boot && pnpm cypress && pnpm dev:teardown",
-    "dev:wait-boot": "wait-port 3001",
+    "e2e": "start-test 'dev' 3001 'cypress'",
     "dev": "pnpm -r dev",
-    "cypress": "cypress run",
-    "dev:teardown": "kill-port 3001"
+    "cypress": "cypress run"
   },
   "keywords": [],
   "author": "Matteo Pietro Dazzi",
   "license": "MIT",
   "devDependencies": {
-    "@testing-library/cypress": "^8.0.7",
-    "cypress": "^12.0.2",
-    "kill-port-process": "^3.1.0",
-    "playwright-webkit": "^1.28.1",
-    "wait-port": "^1.0.4"
+    "@testing-library/cypress": "^9.0.0",
+    "cypress": "^12.3.0",
+    "playwright-webkit": "^1.29.2",
+    "start-server-and-test": "^1.15.3"
   }
 }
