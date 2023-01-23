@@ -7,8 +7,8 @@
     "example": "examples"
   },
   "scripts": {
-    "prepare": "cd ./node_modules/orchy-core && pnpm i &",
-    "orchy": "cd ./node_modules/orchy-core && pnpm w:wc dev &",
+    "prepare": "cd ./node_modules/orchy-core && pnpm i",
+    "orchy": "cd ./node_modules/orchy-core && pnpm w:wc dev",
     "e2e": "start-test 'orchy' 5173 'cypress'",
     "cypress": "pnpm -r --workspace-concurrency 1 e2e",
     "build": "pnpm -r build"
