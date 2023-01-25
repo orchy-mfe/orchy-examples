@@ -1,0 +1,39 @@
+{
+  "name": "react-microfrontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint ./src --ext .js,.jsx"
+  },
+  "dependencies": {
+    "@orchy-mfe/spa-adapter": "^0.1.1",
+    "@orchy-mfe/storage-plugin": "^0.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
+    "rxjs": "^7.5.7"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "happy-dom": "^7.7.0",
+    "rollup-plugin-visualizer": "^5.8.3",
+    "vite": "^3.2.4",
+    "vite-plugin-css-injected-by-js": "^2.1.1",
+    "vite-plugin-svgr": "^2.2.2",
+    "vitest": "^0.25.2"
+  }
+}

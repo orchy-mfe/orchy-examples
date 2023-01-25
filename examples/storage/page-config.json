@@ -1,0 +1,15 @@
+{
+    "type": "flex-row",
+    "content": [{
+        "type": "micro-frontend",
+        "tag": "storage-mfe-react",
+        "url": "//localhost:3001/src/main.jsx"
+    }, {
+        "type": "element",
+        "tag": "orchy-storage-plugin",
+        "url": "https://unpkg.com/@orchy-mfe/storage-plugin@0.1.1/dist/orchy-storage-plugin.js",
+        "attributes": {
+            "strategy": "session"
+        }
+    }]
+}

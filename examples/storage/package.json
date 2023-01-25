@@ -1,0 +1,20 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "In this example we configure the storage plugin",
+  "main": "cypress.config.js",
+  "scripts": {
+    "e2e": "start-test 'dev' '3001' 'cypress'",
+    "dev": "pnpm -r --workspace-concurrency 1 dev",
+    "cypress": "cypress run"
+  },
+  "keywords": [],
+  "author": "Matteo Pietro Dazzi",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/cypress": "^9.0.0",
+    "cypress": "^12.3.0",
+    "playwright-webkit": "^1.29.2",
+    "start-server-and-test": "^1.15.3"
+  }
+}
