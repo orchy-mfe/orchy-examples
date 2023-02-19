@@ -5,10 +5,10 @@ importers:
   .:
     specifiers:
       orchy-core: github:orchy-mfe/orchy-core
-      start-server-and-test: ^1.15.3
+      start-server-and-test: ^1.15.4
     devDependencies:
-      orchy-core: github.com/orchy-mfe/orchy-core/b90b56fb61d4e05abddbaec6e5703d559a07f6fe
-      start-server-and-test: 1.15.3
+      orchy-core: github.com/orchy-mfe/orchy-core/1b34d41e2321402902669b33cfaa1650868a637a
+      start-server-and-test: 1.15.4
 
   examples/all-templates:
     specifiers:
@@ -12920,6 +12920,23 @@ packages:
       - supports-color
     dev: true
 
+  /start-server-and-test/1.15.4:
+    resolution: {integrity: sha512-ucQtp5+UCr0m4aHlY+aEV2JSYNTiMZKdSKK/bsIr6AlmwAWDYDnV7uGlWWEtWa7T4XvRI5cPYcPcQgeLqpz+Tg==}
+    engines: {node: '>=6'}
+    hasBin: true
+    dependencies:
+      arg: 5.0.2
+      bluebird: 3.7.2
+      check-more-types: 2.24.0
+      debug: 4.3.4
+      execa: 5.1.1
+      lazy-ass: 1.6.0
+      ps-tree: 1.2.0
+      wait-on: 7.0.1_debug@4.3.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /statuses/1.5.0:
     resolution: {integrity: sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==}
     engines: {node: '>= 0.6'}
@@ -14814,8 +14831,8 @@ packages:
     dependencies:
       tslib: 2.4.1
 
-  github.com/orchy-mfe/orchy-core/b90b56fb61d4e05abddbaec6e5703d559a07f6fe:
-    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/b90b56fb61d4e05abddbaec6e5703d559a07f6fe}
+  github.com/orchy-mfe/orchy-core/1b34d41e2321402902669b33cfaa1650868a637a:
+    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/1b34d41e2321402902669b33cfaa1650868a637a}
     name: orchy-core
     version: 0.0.1
     prepare: true
