@@ -6,7 +6,7 @@
   "scripts": {
     "e2e": "start-test 'dev' '4200|3001|3000|3002|5000|8080|8081' 'cypress'",
     "dev": "pnpm -r --workspace-concurrency 7 dev",
-    "cypress": "cypress run"
+    "cypress": "cypress run && cypress run --browser chrome && cypress run --browser edge && cypress run --browser firefox && cypress run --browser webkit"
   },
   "keywords": [],
   "author": "Matteo Pietro Dazzi",
