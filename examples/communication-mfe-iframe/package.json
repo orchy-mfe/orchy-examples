@@ -15,6 +15,6 @@
     "@testing-library/cypress": "^9.0.0",
     "cypress": "^12.3.0",
     "cypress-iframe": "^1.0.1",
-    "start-server-and-test": "^1.15.3"
+    "start-server-and-test": "^1.15.4"
   }
 }
