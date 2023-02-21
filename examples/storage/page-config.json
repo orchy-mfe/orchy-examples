@@ -7,7 +7,7 @@
     }, {
         "type": "element",
         "tag": "orchy-storage-plugin",
-        "url": "https://unpkg.com/@orchy-mfe/storage-plugin@0.1.1/dist/orchy-storage-plugin.js",
+        "url": "https://cdn.jsdelivr.net/npm/@orchy-mfe/storage-plugin@0.1.1/dist/orchy-storage-plugin.js",
         "attributes": {
             "strategy": "session"
         }

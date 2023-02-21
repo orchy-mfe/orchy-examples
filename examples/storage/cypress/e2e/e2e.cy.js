@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-describe('communication-mfe-mfe', () => {
+describe('storage', () => {
   const saveInSessionStorage = () => {
     const key = 'storageKey'
     const value = 'storageValue'
