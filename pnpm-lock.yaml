@@ -5,9 +5,9 @@ importers:
   .:
     specifiers:
       orchy-core: github:orchy-mfe/orchy-core
-      start-server-and-test: ^1.15.3
+      start-server-and-test: 1.15.3
     devDependencies:
-      orchy-core: github.com/orchy-mfe/orchy-core/b90b56fb61d4e05abddbaec6e5703d559a07f6fe
+      orchy-core: github.com/orchy-mfe/orchy-core/e9c7a6528419e7e4b5342dd705aba3f1ab757f1b
       start-server-and-test: 1.15.3
 
   examples/all-templates:
@@ -15,7 +15,7 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: 1.15.3
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
@@ -372,7 +372,7 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       cypress-iframe: ^1.0.1
-      start-server-and-test: ^1.15.3
+      start-server-and-test: 1.15.3
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
@@ -463,7 +463,7 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: 1.15.3
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
@@ -561,7 +561,7 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: 1.15.3
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
@@ -659,7 +659,7 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: 1.15.3
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
@@ -718,7 +718,7 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: 1.15.3
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
@@ -818,7 +818,7 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: 1.15.3
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
@@ -14814,8 +14814,8 @@ packages:
     dependencies:
       tslib: 2.4.1
 
-  github.com/orchy-mfe/orchy-core/b90b56fb61d4e05abddbaec6e5703d559a07f6fe:
-    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/b90b56fb61d4e05abddbaec6e5703d559a07f6fe}
+  github.com/orchy-mfe/orchy-core/e9c7a6528419e7e4b5342dd705aba3f1ab757f1b:
+    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/e9c7a6528419e7e4b5342dd705aba3f1ab757f1b}
     name: orchy-core
     version: 0.0.1
     prepare: true
