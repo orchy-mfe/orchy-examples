@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-describe('communication-mfe-mfe', () => {
+describe('communication-parent-children', () => {
   const incrementReact = () => {
     const incrementReactButton = cy.findByText('Increment React')
 
