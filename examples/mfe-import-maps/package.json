@@ -4,11 +4,11 @@
   "description": "In this example we have the following scenario:",
   "main": "cypress.config.js",
   "scripts": {
-    "e2e": "pnpm dev & pnpm dev:wait-boot && pnpm cypress && pnpm dev:teardown",
-    "dev:wait-boot": "wait-port 3001",
+    "e2e": "pnpm dev & pnpm cypress",
+    "precypress": "wait-port 3001",
     "dev": "pnpm -r dev",
     "cypress": "cypress run",
-    "dev:teardown": "kill-port 3001"
+    "postcypress": "kill-port 3001"
   },
   "keywords": [],
   "author": "Matteo Pietro Dazzi",

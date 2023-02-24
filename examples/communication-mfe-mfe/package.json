@@ -4,11 +4,11 @@
   "description": "In this example we have the following scenario:",
   "main": "index.js",
   "scripts": {
-    "e2e": "pnpm dev & pnpm dev:wait-boot && pnpm cypress && pnpm dev:teardown",
-    "dev:wait-boot": "wait-port 3001 && wait-port 5000",
+    "e2e": "pnpm dev & pnpm cypress",
+    "precypress": "wait-port 3001 && wait-port 5000",
     "dev": "pnpm -r --workspace-concurrency 2 dev",
     "cypress": "cypress run && cypress run --browser chrome && cypress run --browser edge && cypress run --browser firefox && cypress run --browser webkit",
-    "dev:teardown": "kill-port 3001 && kill-port 5000"
+    "postcypress": "kill-port 3001 && kill-port 5000"
   },
   "keywords": [],
   "author": "Matteo Pietro Dazzi",
