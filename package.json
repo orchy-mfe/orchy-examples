@@ -7,10 +7,10 @@
     "example": "examples"
   },
   "scripts": {
-    "prepare": "cd ./node_modules/orchy-core && pnpm i",
-    "orchy": "cd ./node_modules/orchy-core && pnpm w:wc dev",
-    "e2e": "start-test 'orchy' 5173 'cypress'",
-    "cypress": "pnpm -r --workspace-concurrency 1 e2e",
+    "prepare": "cd ./node_modules/orchy-core && pnpm i &",
+    "pree2e": "cd ./node_modules/orchy-core && pnpm w:wc dev & wait-port 5173",
+    "e2e": "pnpm -r --workspace-concurrency 1 e2e",
+    "poste2e": "kill-port 5173",
     "build": "pnpm -r build"
   },
   "repository": {
@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/orchy-mfe/orchy-examples#readme",
   "devDependencies": {
+    "kill-port-process": "^3.1.0",
     "orchy-core": "github:orchy-mfe/orchy-core",
-    "start-server-and-test": "1.15.3"
+    "wait-port": "^1.0.4"
   }
 }

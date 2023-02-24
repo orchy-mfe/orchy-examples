@@ -4,9 +4,11 @@
   "description": "In this example we configure all the templates in a single page",
   "main": "cypress.config.js",
   "scripts": {
-    "e2e": "start-test 'dev' '4200|3001|3000|3002|5000|8080|8081' 'cypress'",
+    "e2e": "pnpm dev & pnpm dev:wait-boot && pnpm cypress && pnpm dev:teardown",
+    "dev:wait-boot": "wait-port 4200 && wait-port 3001 && wait-port 3000 && wait-port 3002 && wait-port 5000 && wait-port 8080 && wait-port 8081",
     "dev": "pnpm -r --workspace-concurrency 7 dev",
-    "cypress": "cypress run"
+    "cypress": "cypress run",
+    "dev:teardown": "kill-port 4200 && kill-port 3001 && kill-port 3000 && kill-port 3002 && kill-port 5000 && kill-port 8080 && kill-port 8081"
   },
   "keywords": [],
   "author": "Matteo Pietro Dazzi",
@@ -14,7 +16,8 @@
   "devDependencies": {
     "@testing-library/cypress": "^9.0.0",
     "cypress": "^12.3.0",
+    "kill-port-process": "^3.1.0",
     "playwright-webkit": "^1.29.2",
-    "start-server-and-test": "1.15.3"
+    "wait-port": "^1.0.4"
   }
 }

@@ -4,9 +4,11 @@
   "description": "In this example we configure the storage plugin",
   "main": "cypress.config.js",
   "scripts": {
-    "e2e": "start-test 'dev' '3001' 'cypress'",
-    "dev": "pnpm -r --workspace-concurrency 1 dev",
-    "cypress": "cypress run"
+    "e2e": "pnpm dev & pnpm dev:wait-boot && pnpm cypress && pnpm dev:teardown",
+    "dev:wait-boot": "wait-port 3001",
+    "dev": "pnpm -r dev",
+    "cypress": "cypress run",
+    "dev:teardown": "kill-port 3001"
   },
   "keywords": [],
   "author": "Matteo Pietro Dazzi",
@@ -14,7 +16,8 @@
   "devDependencies": {
     "@testing-library/cypress": "^9.0.0",
     "cypress": "^12.3.0",
+    "kill-port-process": "^3.1.0",
     "playwright-webkit": "^1.29.2",
-    "start-server-and-test": "1.15.3"
+    "wait-port": "^1.0.4"
   }
 }
