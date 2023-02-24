@@ -7,7 +7,7 @@ importers:
       orchy-core: github:orchy-mfe/orchy-core
       start-server-and-test: 1.15.3
     devDependencies:
-      orchy-core: github.com/orchy-mfe/orchy-core/e9c7a6528419e7e4b5342dd705aba3f1ab757f1b
+      orchy-core: github.com/orchy-mfe/orchy-core/6b89ce71f26039ebe22d50b45f4b59b3066fa6d7
       start-server-and-test: 1.15.3
 
   examples/all-templates:
@@ -14814,8 +14814,8 @@ packages:
     dependencies:
       tslib: 2.4.1
 
-  github.com/orchy-mfe/orchy-core/e9c7a6528419e7e4b5342dd705aba3f1ab757f1b:
-    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/e9c7a6528419e7e4b5342dd705aba3f1ab757f1b}
+  github.com/orchy-mfe/orchy-core/6b89ce71f26039ebe22d50b45f4b59b3066fa6d7:
+    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/6b89ce71f26039ebe22d50b45f4b59b3066fa6d7}
     name: orchy-core
     version: 0.0.1
     prepare: true
