@@ -7,7 +7,7 @@
     "e2e": "pnpm dev & pnpm cypress",
     "precypress": "wait-port 3001",
     "dev": "pnpm -r dev",
-    "cypress": "cypress run",
+    "cypress": "cypress run && cypress run --browser chrome && cypress run --browser edge && cypress run --browser firefox && cypress run --browser webkit",
     "postcypress": "kill-port 3001"
   },
   "keywords": [],

@@ -7,7 +7,7 @@
     "e2e": "pnpm dev & pnpm cypress",
     "precypress": "wait-port 4200 && wait-port 3001 && wait-port 3000 && wait-port 3002 && wait-port 5000 && wait-port 8080 && wait-port 8081",
     "dev": "pnpm -r --workspace-concurrency 7 dev",
-    "cypress": "cypress run",
+    "cypress": "cypress run && cypress run --browser chrome && cypress run --browser edge && cypress run --browser firefox && cypress run --browser webkit",
     "postcypress": "kill-port 4200 && kill-port 3001 && kill-port 3000 && kill-port 3002 && kill-port 5000 && kill-port 8080 && kill-port 8081"
   },
   "keywords": [],
