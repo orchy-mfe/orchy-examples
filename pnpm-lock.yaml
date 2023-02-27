@@ -13,13 +13,13 @@ importers:
   examples/all-templates:
     specifiers:
       '@testing-library/cypress': ^9.0.0
-      cypress: ^12.3.0
-      playwright-webkit: ^1.29.2
+      cypress: ^12.7.0
+      playwright-webkit: ^1.31.1
       start-server-and-test: ^2.0.0
     devDependencies:
-      '@testing-library/cypress': 9.0.0_cypress@12.3.0
-      cypress: 12.3.0
-      playwright-webkit: 1.29.2
+      '@testing-library/cypress': 9.0.0_cypress@12.7.0
+      cypress: 12.7.0
+      playwright-webkit: 1.31.1
       start-server-and-test: 2.0.0
 
   examples/all-templates/angular:
@@ -370,12 +370,12 @@ importers:
   examples/communication-mfe-iframe:
     specifiers:
       '@testing-library/cypress': ^9.0.0
-      cypress: ^12.3.0
+      cypress: ^12.7.0
       cypress-iframe: ^1.0.1
       start-server-and-test: ^2.0.0
     devDependencies:
-      '@testing-library/cypress': 9.0.0_cypress@12.3.0
-      cypress: 12.3.0
+      '@testing-library/cypress': 9.0.0_cypress@12.7.0
+      cypress: 12.7.0
       cypress-iframe: 1.0.1_@types+cypress@1.1.3
       start-server-and-test: 2.0.0
 
@@ -461,13 +461,13 @@ importers:
   examples/communication-mfe-mfe:
     specifiers:
       '@testing-library/cypress': ^9.0.0
-      cypress: ^12.3.0
-      playwright-webkit: ^1.29.2
+      cypress: ^12.7.0
+      playwright-webkit: ^1.31.1
       start-server-and-test: ^2.0.0
     devDependencies:
-      '@testing-library/cypress': 9.0.0_cypress@12.3.0
-      cypress: 12.3.0
-      playwright-webkit: 1.29.2
+      '@testing-library/cypress': 9.0.0_cypress@12.7.0
+      cypress: 12.7.0
+      playwright-webkit: 1.31.1
       start-server-and-test: 2.0.0
 
   examples/communication-mfe-mfe/react-microfrontend:
@@ -559,13 +559,13 @@ importers:
   examples/communication-parent-children:
     specifiers:
       '@testing-library/cypress': ^9.0.0
-      cypress: ^12.3.0
-      playwright-webkit: ^1.29.2
+      cypress: ^12.7.0
+      playwright-webkit: ^1.31.1
       start-server-and-test: ^2.0.0
     devDependencies:
-      '@testing-library/cypress': 9.0.0_cypress@12.3.0
-      cypress: 12.3.0
-      playwright-webkit: 1.29.2
+      '@testing-library/cypress': 9.0.0_cypress@12.7.0
+      cypress: 12.7.0
+      playwright-webkit: 1.31.1
       start-server-and-test: 2.0.0
 
   examples/communication-parent-children/react-microfrontend:
@@ -657,13 +657,13 @@ importers:
   examples/mfe-import-maps:
     specifiers:
       '@testing-library/cypress': ^9.0.0
-      cypress: ^12.3.0
-      playwright-webkit: ^1.29.2
+      cypress: ^12.7.0
+      playwright-webkit: ^1.31.1
       start-server-and-test: ^2.0.0
     devDependencies:
-      '@testing-library/cypress': 9.0.0_cypress@12.3.0
-      cypress: 12.3.0
-      playwright-webkit: 1.29.2
+      '@testing-library/cypress': 9.0.0_cypress@12.7.0
+      cypress: 12.7.0
+      playwright-webkit: 1.31.1
       start-server-and-test: 2.0.0
 
   examples/mfe-import-maps/react-microfrontend:
@@ -716,13 +716,13 @@ importers:
   examples/next-js:
     specifiers:
       '@testing-library/cypress': ^9.0.0
-      cypress: ^12.3.0
-      playwright-webkit: ^1.29.2
+      cypress: ^12.7.0
+      playwright-webkit: ^1.31.1
       start-server-and-test: ^2.0.0
     devDependencies:
-      '@testing-library/cypress': 9.0.0_cypress@12.3.0
-      cypress: 12.3.0
-      playwright-webkit: 1.29.2
+      '@testing-library/cypress': 9.0.0_cypress@12.7.0
+      cypress: 12.7.0
+      playwright-webkit: 1.31.1
       start-server-and-test: 2.0.0
 
   examples/next-js/nextjs-blog:
@@ -738,13 +738,13 @@ importers:
   examples/routing-mfe:
     specifiers:
       '@testing-library/cypress': ^9.0.0
-      cypress: ^12.3.0
-      playwright-webkit: ^1.29.2
+      cypress: ^12.7.0
+      playwright-webkit: ^1.31.1
       start-server-and-test: ^2.0.0
     devDependencies:
-      '@testing-library/cypress': 9.0.0_cypress@12.3.0
-      cypress: 12.3.0
-      playwright-webkit: 1.29.2
+      '@testing-library/cypress': 9.0.0_cypress@12.7.0
+      cypress: 12.7.0
+      playwright-webkit: 1.31.1
       start-server-and-test: 2.0.0
 
   examples/routing-mfe/react-microfrontend:
@@ -838,13 +838,13 @@ importers:
   examples/storage:
     specifiers:
       '@testing-library/cypress': ^9.0.0
-      cypress: ^12.3.0
-      playwright-webkit: ^1.29.2
+      cypress: ^12.7.0
+      playwright-webkit: ^1.31.1
       start-server-and-test: ^2.0.0
     devDependencies:
-      '@testing-library/cypress': 9.0.0_cypress@12.3.0
-      cypress: 12.3.0
-      playwright-webkit: 1.29.2
+      '@testing-library/cypress': 9.0.0_cypress@12.7.0
+      cypress: 12.7.0
+      playwright-webkit: 1.31.1
       start-server-and-test: 2.0.0
 
   examples/storage/react-microfrontend:
@@ -4642,10 +4642,10 @@ packages:
   /@swc/helpers/0.4.14:
     resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
-  /@testing-library/cypress/9.0.0_cypress@12.3.0:
+  /@testing-library/cypress/9.0.0_cypress@12.7.0:
     resolution: {integrity: sha512-c1XiCGeHGGTWn0LAU12sFUfoX3qfId5gcSE2yHode+vsyHDWraxDPALjVnHd4/Fa3j4KBcc5k++Ccy6A9qnkMA==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -4653,7 +4653,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.20.6
       '@testing-library/dom': 8.19.0
-      cypress: 12.3.0
+      cypress: 12.7.0
     dev: true
 
   /@testing-library/dom/8.19.0:
@@ -4826,7 +4826,7 @@ packages:
     resolution: {integrity: sha512-OXe0Gw8LeCflkG1oPgFpyrYWJmEKqYncBsD/J0r17r0ETx/TnIGDNLwXt/pFYSYuYTpzcq1q3g62M9DrfsBL4g==}
     deprecated: This is a stub types definition for cypress (https://cypress.io). cypress provides its own type definitions, so you don't need @types/cypress installed!
     dependencies:
-      cypress: 12.3.0
+      cypress: 12.7.0
     dev: true
 
   /@types/eslint-scope/3.7.4:
@@ -6952,8 +6952,8 @@ packages:
       '@types/cypress': 1.1.3
     dev: true
 
-  /cypress/12.3.0:
-    resolution: {integrity: sha512-ZQNebibi6NBt51TRxRMYKeFvIiQZ01t50HSy7z/JMgRVqBUey3cdjog5MYEbzG6Ktti5ckDt1tfcC47lmFwXkw==}
+  /cypress/12.7.0:
+    resolution: {integrity: sha512-7rq+nmhzz0u6yabCFyPtADU2OOrYt6pvUau9qV7xyifJ/hnsaw/vkr0tnLlcuuQKUAOC1v1M1e4Z0zG7S0IAvA==}
     engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
     hasBin: true
     requiresBuild: true
@@ -6990,7 +6990,7 @@ packages:
       listr2: 3.14.0_enquirer@2.3.6
       lodash: 4.17.21
       log-symbols: 4.1.0
-      minimist: 1.2.7
+      minimist: 1.2.8
       ospath: 1.2.2
       pretty-bytes: 5.6.0
       proxy-from-env: 1.0.0
@@ -10545,7 +10545,7 @@ packages:
     resolution: {integrity: sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==}
     hasBin: true
     dependencies:
-      minimist: 1.2.7
+      minimist: 1.2.8
     dev: true
 
   /json5/2.2.1:
@@ -10740,7 +10740,7 @@ packages:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
-      tslib: 2.4.1
+      tslib: 2.5.0
     optionalDependencies:
       errno: 0.1.8
       graceful-fs: 4.2.10
@@ -10946,7 +10946,7 @@ packages:
   /lower-case/2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: true
 
   /lru-cache/6.0.0:
@@ -11166,10 +11166,6 @@ packages:
       brace-expansion: 2.0.1
     dev: true
 
-  /minimist/1.2.7:
-    resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
-    dev: true
-
   /minimist/1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
     dev: true
@@ -11257,7 +11253,7 @@ packages:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
     hasBin: true
     dependencies:
-      minimist: 1.2.7
+      minimist: 1.2.8
     dev: true
 
   /mkdirp/1.0.4:
@@ -11396,7 +11392,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: true
 
   /node-addon-api/3.2.1:
@@ -11880,7 +11876,7 @@ packages:
     resolution: {integrity: sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g==}
     dependencies:
       no-case: 3.0.4
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: true
 
   /path-exists/4.0.0:
@@ -11965,19 +11961,19 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /playwright-core/1.29.2:
-    resolution: {integrity: sha512-94QXm4PMgFoHAhlCuoWyaBYKb92yOcGVHdQLoxQ7Wjlc7Flg4aC/jbFW7xMR52OfXMVkWicue4WXE7QEegbIRA==}
+  /playwright-core/1.31.1:
+    resolution: {integrity: sha512-JTyX4kV3/LXsvpHkLzL2I36aCdml4zeE35x+G5aPc4bkLsiRiQshU5lWeVpHFAuC8xAcbI6FDcw/8z3q2xtJSQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
 
-  /playwright-webkit/1.29.2:
-    resolution: {integrity: sha512-KYBwrNJW374ZOsAQfRxbi/r3bPTKowclX5HG58pJdEgViORSmtec5gshFx0vZbKOYbXN47w9lNQesZvk3EG9ew==}
+  /playwright-webkit/1.31.1:
+    resolution: {integrity: sha512-0ptdrYwIzZNk+7rNc38tYz2CEeniSnyW7JOzKYj5Qrpo/MTLMviVzubmwKHUXu071p+1oo1ihb5VDH7KssDEuA==}
     engines: {node: '>=14'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      playwright-core: 1.29.2
+      playwright-core: 1.31.1
     dev: true
 
   /postcss-loader/7.0.1_upg3rk2kpasnbk27hkqapxaxfq:
@@ -12974,7 +12970,7 @@ packages:
     hasBin: true
     dependencies:
       buffer-crc32: 0.2.13
-      minimist: 1.2.7
+      minimist: 1.2.8
       sander: 0.5.1
       sourcemap-codec: 1.4.8
     dev: true
@@ -13720,7 +13716,7 @@ packages:
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.1
-      minimist: 1.2.7
+      minimist: 1.2.8
       strip-bom: 3.0.0
     dev: true
 

@@ -13,8 +13,8 @@
   "license": "MIT",
   "devDependencies": {
     "@testing-library/cypress": "^9.0.0",
-    "cypress": "^12.3.0",
-    "playwright-webkit": "^1.29.2",
+    "cypress": "^12.7.0",
+    "playwright-webkit": "^1.31.1",
     "start-server-and-test": "^2.0.0"
   }
 }
