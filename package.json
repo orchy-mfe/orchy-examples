@@ -9,7 +9,7 @@
   "scripts": {
     "prepare": "cd ./node_modules/orchy-core && pnpm i",
     "orchy": "cd ./node_modules/orchy-core && pnpm w:wc dev",
-    "e2e": "start-test 'orchy' 5173 'cypress'",
+    "e2e": "start-test 'orchy' 'localhost:5173' 'cypress'",
     "cypress": "pnpm -r --workspace-concurrency 1 e2e",
     "build": "pnpm -r build"
   },
@@ -26,6 +26,6 @@
   "homepage": "https://github.com/orchy-mfe/orchy-examples#readme",
   "devDependencies": {
     "orchy-core": "github:orchy-mfe/orchy-core",
-    "start-server-and-test": "^1.15.3"
+    "start-server-and-test": "^2.0.0"
   }
 }

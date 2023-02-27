@@ -6,6 +6,9 @@ module.exports = defineConfig({
     video: false,
     screenshotOnRunFailure: false,
     fixturesFolder: './',
-    experimentalWebKitSupport: true
+    experimentalWebKitSupport: true,
+    retries: {
+      runMode: 2
+    }
   },
 });

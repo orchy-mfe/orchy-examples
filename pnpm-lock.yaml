@@ -5,22 +5,22 @@ importers:
   .:
     specifiers:
       orchy-core: github:orchy-mfe/orchy-core
-      start-server-and-test: ^1.15.3
+      start-server-and-test: ^2.0.0
     devDependencies:
-      orchy-core: github.com/orchy-mfe/orchy-core/b90b56fb61d4e05abddbaec6e5703d559a07f6fe
-      start-server-and-test: 1.15.3
+      orchy-core: github.com/orchy-mfe/orchy-core/3df1b60387e6a789c589bf503fd2e6340d51f1ec
+      start-server-and-test: 2.0.0
 
   examples/all-templates:
     specifiers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: ^2.0.0
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
       playwright-webkit: 1.29.2
-      start-server-and-test: 1.15.3
+      start-server-and-test: 2.0.0
 
   examples/all-templates/angular:
     specifiers:
@@ -372,12 +372,12 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       cypress-iframe: ^1.0.1
-      start-server-and-test: ^1.15.3
+      start-server-and-test: ^2.0.0
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
       cypress-iframe: 1.0.1_@types+cypress@1.1.3
-      start-server-and-test: 1.15.3
+      start-server-and-test: 2.0.0
 
   examples/communication-mfe-iframe/react-microfrontend:
     specifiers:
@@ -463,12 +463,12 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: ^2.0.0
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
       playwright-webkit: 1.29.2
-      start-server-and-test: 1.15.3
+      start-server-and-test: 2.0.0
 
   examples/communication-mfe-mfe/react-microfrontend:
     specifiers:
@@ -561,12 +561,12 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: ^2.0.0
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
       playwright-webkit: 1.29.2
-      start-server-and-test: 1.15.3
+      start-server-and-test: 2.0.0
 
   examples/communication-parent-children/react-microfrontend:
     specifiers:
@@ -659,12 +659,12 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: ^2.0.0
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
       playwright-webkit: 1.29.2
-      start-server-and-test: 1.15.3
+      start-server-and-test: 2.0.0
 
   examples/mfe-import-maps/react-microfrontend:
     specifiers:
@@ -718,12 +718,12 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: ^2.0.0
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
       playwright-webkit: 1.29.2
-      start-server-and-test: 1.15.3
+      start-server-and-test: 2.0.0
 
   examples/routing-mfe/react-microfrontend:
     specifiers:
@@ -818,12 +818,12 @@ importers:
       '@testing-library/cypress': ^9.0.0
       cypress: ^12.3.0
       playwright-webkit: ^1.29.2
-      start-server-and-test: ^1.15.3
+      start-server-and-test: ^2.0.0
     devDependencies:
       '@testing-library/cypress': 9.0.0_cypress@12.3.0
       cypress: 12.3.0
       playwright-webkit: 1.29.2
-      start-server-and-test: 1.15.3
+      start-server-and-test: 2.0.0
 
   examples/storage/react-microfrontend:
     specifiers:
@@ -12903,8 +12903,8 @@ packages:
       escape-string-regexp: 2.0.0
     dev: true
 
-  /start-server-and-test/1.15.3:
-    resolution: {integrity: sha512-4GqkqghvUR9cJ8buvtgkyT0AHgVwCJ5EN8eDEhe9grTChGwWUxGm2nqfSeE9+0PZkLRdFqcwTwxVHe1y3ViutQ==}
+  /start-server-and-test/2.0.0:
+    resolution: {integrity: sha512-UqKLw0mJbfrsG1jcRLTUlvuRi9sjNuUiDOLI42r7R5fA9dsFoywAy9DoLXNYys9B886E4RCKb+qM1Gzu96h7DQ==}
     engines: {node: '>=6'}
     hasBin: true
     dependencies:
@@ -14814,8 +14814,8 @@ packages:
     dependencies:
       tslib: 2.4.1
 
-  github.com/orchy-mfe/orchy-core/b90b56fb61d4e05abddbaec6e5703d559a07f6fe:
-    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/b90b56fb61d4e05abddbaec6e5703d559a07f6fe}
+  github.com/orchy-mfe/orchy-core/3df1b60387e6a789c589bf503fd2e6340d51f1ec:
+    resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/3df1b60387e6a789c589bf503fd2e6340d51f1ec}
     name: orchy-core
     version: 0.0.1
     prepare: true
