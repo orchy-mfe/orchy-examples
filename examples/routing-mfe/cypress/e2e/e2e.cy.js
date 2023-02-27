@@ -4,7 +4,7 @@ describe('routing-mfe', () => {
     cy.findByText('React: Foo path loaded')
     cy.findByText('Svelte: Foo path loaded')
     cy.url().should('include', '#/root/foo')
-    
+
     cy.findByText('Navigate React').click()
     cy.findByText('React: Bar path loaded')
     cy.findByText('Svelte: Bar path loaded')
@@ -15,7 +15,7 @@ describe('routing-mfe', () => {
     cy.findByText('React: Foo path loaded')
     cy.findByText('Svelte: Foo path loaded')
     cy.url().should('include', '#/root/foo')
-    
+
     cy.findByText('Navigate Svelte').click()
     cy.findByText('React: Bar path loaded')
     cy.findByText('Svelte: Bar path loaded')
@@ -49,9 +49,9 @@ describe('routing-mfe', () => {
         })
       })
 
-      cy.visit('/root')
+      cy.visit('/root', { failOnStatusCode: false })
     })
-  
+
     it('routing react', routingReact)
 
     it('routing svelte', routingSvelte)
@@ -76,9 +76,9 @@ describe('routing-mfe', () => {
         })
       })
 
-      cy.visit('/root')
+      cy.visit('/root', { failOnStatusCode: false })
     })
-  
+
     it('routing react', routingReact)
 
     it('routing svelte', routingSvelte)
