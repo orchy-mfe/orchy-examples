@@ -6,7 +6,7 @@
   "scripts": {
     "e2e": "start-test 'dev' 'localhost:3001' 'cypress'",
     "dev": "pnpm -r dev",
-    "cypress": "cypress run"
+    "cypress": "cypress run && cypress run --browser chrome && cypress run --browser edge && cypress run --browser firefox && cypress run --browser webkit"
   },
   "keywords": [],
   "author": "Matteo Pietro Dazzi",

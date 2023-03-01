@@ -6,7 +6,7 @@
   "scripts": {
     "e2e": "start-test 'dev' 'localhost:4200|localhost:3001|localhost:3000|localhost:3002|localhost:5000|localhost:8080|localhost:8081' 'cypress'",
     "dev": "pnpm -r --workspace-concurrency 7 dev",
-    "cypress": "cypress run"
+    "cypress": "cypress run && cypress run --browser chrome && cypress run --browser edge && cypress run --browser firefox && cypress run --browser webkit"
   },
   "keywords": [],
   "author": "Matteo Pietro Dazzi",
