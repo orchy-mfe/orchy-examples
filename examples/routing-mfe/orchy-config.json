@@ -1,6 +1,6 @@
 {
   "microPages": {
-    "/root": {
+    "/entrypoint": {
       "pageConfiguration": "page-config.json"
     }
   }
