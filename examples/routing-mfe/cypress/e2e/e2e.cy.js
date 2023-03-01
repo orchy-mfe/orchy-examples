@@ -3,34 +3,34 @@ describe('routing-mfe', () => {
   const routingReact = () => {
     cy.findByText('React: Foo path loaded')
     cy.findByText('Svelte: Foo path loaded')
-    cy.url().should('include', '#/root/foo')
+    cy.url().should('include', '#/entrypoint/foo')
 
     cy.findByText('Navigate React').click()
     cy.findByText('React: Bar path loaded')
     cy.findByText('Svelte: Bar path loaded')
-    cy.url().should('include', '#/root/bar')
+    cy.url().should('include', '#/entrypoint/bar')
   }
 
   const routingSvelte = () => {
     cy.findByText('React: Foo path loaded')
     cy.findByText('Svelte: Foo path loaded')
-    cy.url().should('include', '#/root/foo')
+    cy.url().should('include', '#/entrypoint/foo')
 
     cy.findByText('Navigate Svelte').click()
     cy.findByText('React: Bar path loaded')
     cy.findByText('Svelte: Bar path loaded')
-    cy.url().should('include', '#/root/bar')
+    cy.url().should('include', '#/entrypoint/bar')
   }
 
   const routingBoth = () => {
     cy.findByText('React: Foo path loaded')
     cy.findByText('Svelte: Foo path loaded')
-    cy.url().should('include', '#/root/foo')
+    cy.url().should('include', '#/entrypoint/foo')
 
     cy.findByText('Navigate Svelte').click()
     cy.findByText('React: Bar path loaded')
     cy.findByText('Svelte: Bar path loaded')
-    cy.url().should('include', '#/root/bar')
+    cy.url().should('include', '#/entrypoint/bar')
   }
 
   describe('json page config', () => {
@@ -49,7 +49,7 @@ describe('routing-mfe', () => {
         })
       })
 
-      cy.visit('/root', { failOnStatusCode: false })
+      cy.visit('/entrypoint', { failOnStatusCode: false })
     })
 
     it('routing react', routingReact)
@@ -62,7 +62,7 @@ describe('routing-mfe', () => {
   describe('html page config', () => {
     beforeEach(() => {
       cy.fixture('orchy-config.json').then(orchyConfigJson => {
-        orchyConfigJson.microPages['/root'].pageConfiguration = 'page-config.html'
+        orchyConfigJson.microPages['/entrypoint'].pageConfiguration = 'page-config.html'
         cy.intercept('/api/v1/configuration/orchy-config.json', {
           statusCode: 200,
           body: orchyConfigJson
@@ -76,7 +76,7 @@ describe('routing-mfe', () => {
         })
       })
 
-      cy.visit('/root', { failOnStatusCode: false })
+      cy.visit('/entrypoint', { failOnStatusCode: false })
     })
 
     it('routing react', routingReact)
