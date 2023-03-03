@@ -3,7 +3,7 @@
     "content": [{
         "type": "micro-frontend",
         "tag": "orchy-next-plugin",
-        "url": "https://unpkg.com/@orchy-mfe/next-plugin@0.1.1/dist/orchy-next-plugin.js",
+        "url": "https://unpkg.com/@orchy-mfe/next-plugin@0.1.2/dist/orchy-next-plugin.js",
         "attributes": {
             "nextBase": "http://localhost:3001"
         }
