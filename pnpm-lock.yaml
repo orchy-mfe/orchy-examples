@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
 
   .:
@@ -8,8 +12,8 @@ importers:
         specifier: github:orchy-mfe/orchy-core
         version: github.com/orchy-mfe/orchy-core/4835f9d1acbb7dd5282ef278c9d8cefa2d06808b
       start-server-and-test:
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^2.0.1
+        version: 2.0.1
 
   examples/all-templates:
     devDependencies:
@@ -614,7 +618,7 @@ importers:
         version: 8.29.0
       eslint-config-preact:
         specifier: ^1.3.0
-        version: 1.3.0(@typescript-eslint/eslint-plugin@5.46.1)(eslint@8.30.0)(typescript@4.9.4)
+        version: 1.3.0(eslint@8.29.0)(typescript@4.9.4)
       eslint-config-prettier:
         specifier: ^8.5.0
         version: 8.5.0(eslint@8.29.0)
@@ -748,7 +752,7 @@ importers:
         version: 8.29.0
       eslint-config-preact:
         specifier: ^1.3.0
-        version: 1.3.0(@typescript-eslint/eslint-plugin@5.46.1)(eslint@8.30.0)(typescript@4.9.4)
+        version: 1.3.0(eslint@8.29.0)(typescript@4.9.4)
       eslint-config-prettier:
         specifier: ^8.5.0
         version: 8.5.0(eslint@8.29.0)
@@ -863,7 +867,7 @@ importers:
         version: 2.4.0(vite@3.2.5)
       vitest:
         specifier: ^0.25.2
-        version: 0.25.8(happy-dom@8.1.0)(jsdom@20.0.3)
+        version: 0.25.8(happy-dom@7.7.2)
 
   examples/communication-parent-children/svelte-microfrontend:
     dependencies:
@@ -1134,7 +1138,7 @@ importers:
         version: 8.29.0
       eslint-config-preact:
         specifier: ^1.3.0
-        version: 1.3.0(@typescript-eslint/eslint-plugin@5.46.1)(eslint@8.30.0)(typescript@4.9.4)
+        version: 1.3.0(eslint@8.29.0)(typescript@4.9.4)
       eslint-config-prettier:
         specifier: ^8.5.0
         version: 8.5.0(eslint@8.29.0)
@@ -1252,7 +1256,7 @@ importers:
         version: 2.4.0(vite@3.2.5)
       vitest:
         specifier: ^0.25.2
-        version: 0.25.8(happy-dom@8.1.0)(jsdom@20.0.3)
+        version: 0.25.8(happy-dom@7.7.2)
 
 packages:
 
@@ -8519,6 +8523,28 @@ packages:
       - typescript
     dev: true
 
+  /eslint-config-preact@1.3.0(eslint@8.29.0)(typescript@4.9.4):
+    resolution: {integrity: sha512-yHYXg5qNzEJd3D/30AmsIW0W8MuY858KpApXp7xxBF08IYUljSKCOqMx+dVucXHQnAm7+11wOnMkgVHIBAechw==}
+    peerDependencies:
+      eslint: 6.x || 7.x || 8.x
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/eslint-parser': 7.19.1(@babel/core@7.20.5)(eslint@8.29.0)
+      '@babel/plugin-syntax-class-properties': 7.12.13(@babel/core@7.20.5)
+      '@babel/plugin-syntax-decorators': 7.19.0(@babel/core@7.20.5)
+      '@babel/plugin-syntax-jsx': 7.18.6(@babel/core@7.20.5)
+      eslint: 8.29.0
+      eslint-plugin-compat: 4.0.2(eslint@8.29.0)
+      eslint-plugin-jest: 25.7.0(@typescript-eslint/eslint-plugin@5.46.1)(eslint@8.29.0)(typescript@4.9.4)
+      eslint-plugin-react: 7.31.11(eslint@8.29.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.29.0)
+    transitivePeerDependencies:
+      - '@typescript-eslint/eslint-plugin'
+      - jest
+      - supports-color
+      - typescript
+    dev: true
+
   /eslint-config-prettier@8.5.0(eslint@8.29.0):
     resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
@@ -8672,6 +8698,23 @@ packages:
       eslint-import-resolver-node: 0.3.6
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /eslint-plugin-compat@4.0.2(eslint@8.29.0):
+    resolution: {integrity: sha512-xqvoO54CLTVaEYGMzhu35Wzwk/As7rCvz/2dqwnFiWi0OJccEtGIn+5qq3zqIu9nboXlpdBN579fZcItC73Ycg==}
+    engines: {node: '>=9.x'}
+    peerDependencies:
+      eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+    dependencies:
+      '@mdn/browser-compat-data': 4.2.1
+      ast-metadata-inferer: 0.7.0
+      browserslist: 4.21.4
+      caniuse-lite: 1.0.30001436
+      core-js: 3.26.1
+      eslint: 8.29.0
+      find-up: 5.0.0
+      lodash.memoize: 4.1.2
+      semver: 7.3.5
     dev: true
 
   /eslint-plugin-compat@4.0.2(eslint@8.30.0):
@@ -11595,6 +11638,7 @@ packages:
 
   /node-addon-api@3.2.1:
     resolution: {integrity: sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -11618,6 +11662,7 @@ packages:
   /node-gyp-build@4.5.0:
     resolution: {integrity: sha512-2iGbaQBV+ITgCz76ZEjmhUKAKVf7xfY1sRl4UiKQspfZMH2h06SyhNsnSVy50cwkFQDGLyif6m/6uFXHkOZ6rg==}
     hasBin: true
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -12139,6 +12184,7 @@ packages:
   /pify@4.0.1:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -12375,6 +12421,7 @@ packages:
 
   /prr@1.0.1:
     resolution: {integrity: sha512-yPw4Sng1gWghHQWj0B3ZggWUm4qVbPwPFcRG8KyxiU7J2OHFSoEHKS+EZ3fv5l1t9CyCiop6l/ZYeWbrgoQejw==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -12878,6 +12925,7 @@ packages:
 
   /sax@1.2.4:
     resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -12926,6 +12974,7 @@ packages:
   /semver@5.7.1:
     resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
     hasBin: true
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -13312,6 +13361,23 @@ packages:
   /start-server-and-test@2.0.0:
     resolution: {integrity: sha512-UqKLw0mJbfrsG1jcRLTUlvuRi9sjNuUiDOLI42r7R5fA9dsFoywAy9DoLXNYys9B886E4RCKb+qM1Gzu96h7DQ==}
     engines: {node: '>=6'}
+    hasBin: true
+    dependencies:
+      arg: 5.0.2
+      bluebird: 3.7.2
+      check-more-types: 2.24.0
+      debug: 4.3.4(supports-color@8.1.1)
+      execa: 5.1.1
+      lazy-ass: 1.6.0
+      ps-tree: 1.2.0
+      wait-on: 7.0.1(debug@4.3.4)
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /start-server-and-test@2.0.1:
+    resolution: {integrity: sha512-8PFo4DLLLCDMuS51/BEEtE1m9CAXw1LNVtZSS1PzkYQh6Qf9JUwM4huYeSoUumaaoAyuwYBwCa9OsrcpMqcOdQ==}
+    engines: {node: '>=16'}
     hasBin: true
     dependencies:
       arg: 5.0.2
@@ -14550,6 +14616,52 @@ packages:
       - terser
     dev: true
 
+  /vitest@0.25.8(happy-dom@7.7.2):
+    resolution: {integrity: sha512-X75TApG2wZTJn299E/TIYevr4E9/nBo1sUtZzn0Ci5oK8qnpZAZyhwg0qCeMSakGIWtc6oRwcQFyFfW14aOFWg==}
+    engines: {node: '>=v14.16.0'}
+    hasBin: true
+    peerDependencies:
+      '@edge-runtime/vm': '*'
+      '@vitest/browser': '*'
+      '@vitest/ui': '*'
+      happy-dom: '*'
+      jsdom: '*'
+    peerDependenciesMeta:
+      '@edge-runtime/vm':
+        optional: true
+      '@vitest/browser':
+        optional: true
+      '@vitest/ui':
+        optional: true
+      happy-dom:
+        optional: true
+      jsdom:
+        optional: true
+    dependencies:
+      '@types/chai': 4.3.4
+      '@types/chai-subset': 1.3.3
+      '@types/node': 14.18.34
+      acorn: 8.8.1
+      acorn-walk: 8.2.0
+      chai: 4.3.7
+      debug: 4.3.4(supports-color@8.1.1)
+      happy-dom: 7.7.2
+      local-pkg: 0.4.2
+      source-map: 0.6.1
+      strip-literal: 1.0.0
+      tinybench: 2.3.1
+      tinypool: 0.3.0
+      tinyspy: 1.0.2
+      vite: 4.0.3(@types/node@14.18.34)
+    transitivePeerDependencies:
+      - less
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+    dev: true
+
   /vitest@0.25.8(happy-dom@8.1.0)(jsdom@20.0.3):
     resolution: {integrity: sha512-X75TApG2wZTJn299E/TIYevr4E9/nBo1sUtZzn0Ci5oK8qnpZAZyhwg0qCeMSakGIWtc6oRwcQFyFfW14aOFWg==}
     engines: {node: '>=v14.16.0'}
@@ -15073,6 +15185,5 @@ packages:
     resolution: {tarball: https://codeload.github.com/orchy-mfe/orchy-core/tar.gz/4835f9d1acbb7dd5282ef278c9d8cefa2d06808b}
     name: orchy-core
     version: 0.0.1
-    prepare: true
     requiresBuild: true
     dev: true
