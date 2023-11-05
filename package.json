@@ -26,6 +26,6 @@
   "homepage": "https://github.com/orchy-mfe/orchy-examples#readme",
   "devDependencies": {
     "orchy-core": "github:orchy-mfe/orchy-core",
-    "start-server-and-test": "^2.0.1"
+    "start-server-and-test": "^2.0.2"
   }
 }
