@@ -12,8 +12,8 @@ importers:
         specifier: github:orchy-mfe/orchy-core
         version: github.com/orchy-mfe/orchy-core/4835f9d1acbb7dd5282ef278c9d8cefa2d06808b
       start-server-and-test:
-        specifier: ^2.0.3
-        version: 2.0.3
+        specifier: ^2.0.4
+        version: 2.0.4
 
   examples/all-templates:
     devDependencies:
@@ -6399,10 +6399,10 @@ packages:
       - debug
     dev: true
 
-  /axios@1.6.2(debug@4.3.4):
+  /axios@1.6.2(debug@4.3.5):
     resolution: {integrity: sha512-7i24Ri4pmDRfJTR7LDBhsOTtcm+9kjX5WiY1X3wIisx6G9So3pfMkEiU7emUBe46oceVImccTEM3k6C5dbVW8A==}
     dependencies:
-      follow-redirects: 1.15.2(debug@4.3.4)
+      follow-redirects: 1.15.2(debug@4.3.5)
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -7415,6 +7415,18 @@ packages:
     dependencies:
       ms: 2.1.2
       supports-color: 8.1.1
+    dev: true
+
+  /debug@4.3.5:
+    resolution: {integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
     dev: true
 
   /decimal.js@10.4.3:
@@ -9592,6 +9604,18 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
     dev: true
 
+  /follow-redirects@1.15.2(debug@4.3.5):
+    resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dependencies:
+      debug: 4.3.5
+    dev: true
+
   /for-each@0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
     dependencies:
@@ -10108,7 +10132,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.15.2(debug@4.3.4)
+      follow-redirects: 1.15.2(debug@4.3.5)
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
@@ -11036,8 +11060,6 @@ packages:
       webpack: '*'
     peerDependenciesMeta:
       webpack:
-        optional: true
-      webpack-sources:
         optional: true
     dependencies:
       webpack: 5.75.0(esbuild@0.15.10)
@@ -13405,19 +13427,19 @@ packages:
       - supports-color
     dev: true
 
-  /start-server-and-test@2.0.3:
-    resolution: {integrity: sha512-QsVObjfjFZKJE6CS6bSKNwWZCKBG6975/jKRPPGFfFh+yOQglSeGXiNWjzgQNXdphcBI9nXbyso9tPfX4YAUhg==}
+  /start-server-and-test@2.0.4:
+    resolution: {integrity: sha512-CKNeBTcP0hVqIlNismHMudb9q3lLdAjcVPO13/7gfI66fcJpeIb/o4NzQd1JK/CD+lfWVqr10ZH9Y14+OwlJuw==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
       arg: 5.0.2
       bluebird: 3.7.2
       check-more-types: 2.24.0
-      debug: 4.3.4(supports-color@8.1.1)
+      debug: 4.3.5
       execa: 5.1.1
       lazy-ass: 1.6.0
       ps-tree: 1.2.0
-      wait-on: 7.2.0(debug@4.3.4)
+      wait-on: 7.2.0(debug@4.3.5)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -14819,12 +14841,12 @@ packages:
       - debug
     dev: true
 
-  /wait-on@7.2.0(debug@4.3.4):
+  /wait-on@7.2.0(debug@4.3.5):
     resolution: {integrity: sha512-wCQcHkRazgjG5XoAq9jbTMLpNIjoSlZslrJ2+N9MxDsGEv1HnFoVjOCexL0ESva7Y9cu350j+DWADdk54s4AFQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
-      axios: 1.6.2(debug@4.3.4)
+      axios: 1.6.2(debug@4.3.5)
       joi: 17.11.0
       lodash: 4.17.21
       minimist: 1.2.8
